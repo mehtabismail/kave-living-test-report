@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-10-30T10:40:32.738Z",
+  "runCount": 1,
+  "runs": [
+    {
+      "run": 1,
+      "url": "1/",
+      "buildName": "#1 (dev)",
+      "buildUrl": "https://github.com/zaptatech/Liveup-Mobile/actions/runs/41042308006",
+      "runAt": "2026-10-30T10:40:27Z",
+      "branch": "dev",
+      "commit": "4de26bd",
+      "trigger": "push",
+      "included": "Unit (Jest)",
+      "total": 495,
+      "passed": 494,
+      "failed": 0,
+      "broken": 0,
+      "skipped": 1,
+      "e2eTests": "",
+      "e2eFailed": "",
+      "e2eUploadedAt": "",
+      "e2eStatus": "not included (no upload on the test-results branch yet)"
+    }
+  ]
+}
