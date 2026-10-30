@@ -1,0 +1,19 @@
+ERROR		Control Center invocation analytics ended with missing begin.
+ERROR		Event handler is called Connection invalid
+FATAL		Could not read asset type descriptor "/Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AppPredictionClient.framework/../Assets.bundle/com.apple.MobileAsset.AssetTypeDescriptor.DuetExpertCenterAsset.plist": Error Domain=NSCocoaErrorDomain Code=260 "The file “com.apple.MobileAsset.AssetTypeDescriptor.DuetExpertCenterAsset.plist” couldn’t be opened because there is no such file." UserInfo={NSFilePath=/Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AppPredictionClient.framework/../Assets.bundle/com.apple.MobileAsset.AssetTypeDescriptor.DuetExpertCenterAsset.plist, NSURL=file:///Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS%2026.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AppPredictionClient.framework/../Assets.bundle/com.apple.MobileAsset.AssetTypeDescriptor.DuetExpertCenterAsset.plist, NSUnderlyingError=0x116aa8180 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+FATAL		Unable to load Info.plist for default bundle at "/Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AppPredictionClient.framework/../Assets.bundle".
+ERROR	ClockKit:default	Creating a CLKDevice without an PDRDevice: (null)
+ERROR	ClockKit:default	device ((null)) has no material, defaulting to light aluminum
+ERROR		Event handler is called Connection invalid
+ERROR		[MADPhotosDataStoreClient][AddPersistentStoreCoordinator] Failed to create database directory at /var/mobile/Media/MediaAnalysis: Error Domain=NSCocoaErrorDomain Code=513 "You don’t have permission to save the file “MediaAnalysis” in the folder “Media”." UserInfo={NSFilePath=/var/mobile/Media/MediaAnalysis, NSURL=file:///var/mobile/Media/MediaAnalysis, NSUnderlyingError=0x1094d83c0 {Error Domain=NSPOSIXErrorDomain Code=13 "Permission denied"}}
+ERROR		[MADPhotosDataStoreClient][CreateCoordinatorForLibrary] Failed to configure coordinator for photo library /Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/33066A63-A46E-469B-BB5A-F2EAADE8240C/data/Media
+ERROR		[MADPhotosDataStoreClient][QueryMetadata] Failed to retrieve persistent store coordinator for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/33066A63-A46E-469B-BB5A-F2EAADE8240C/data/Media/
+ERROR		[MADPhotosDataStoreClient][QueryMetadata] Failed to fetch database metadata for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/33066A63-A46E-469B-BB5A-F2EAADE8240C/data/Media/
+ERROR		[MADPhotosDataStoreClient][MigrationForLibrary] Failed to query current database version for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/33066A63-A46E-469B-BB5A-F2EAADE8240C/data/Media/
+ERROR		[MADSchedulerBackgroundSystemTask] Database migration incomplete for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/33066A63-A46E-469B-BB5A-F2EAADE8240C/data/Media/
+TRACE	com.facebook.react.log:native	Manifest does not exist - creating a new one.
+		
+		(null)
+DEBUG	com.facebook.react.log:javascript	The `allowsFullscreen` prop is deprecated and will be removed in a future release. Use `fullscreenOptions` prop instead.
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'

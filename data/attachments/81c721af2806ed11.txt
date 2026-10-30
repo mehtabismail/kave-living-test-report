@@ -1,0 +1,5 @@
+ERROR		Control Center invocation analytics ended with missing begin.
+DEBUG	com.facebook.react.log:javascript	The `allowsFullscreen` prop is deprecated and will be removed in a future release. Use `fullscreenOptions` prop instead.
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		User passwd entry or home directory is not found
+ERROR		Failed to initialize PETEventTracker2.

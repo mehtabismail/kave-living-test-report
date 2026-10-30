@@ -1,0 +1,2 @@
+ERROR		Event handler is called Connection invalid
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel

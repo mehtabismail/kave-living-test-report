@@ -1,0 +1,13 @@
+ERROR		Event handler is called Connection invalid
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		[MADPhotosDataStoreClient][AddPersistentStoreCoordinator] Failed to create database directory at /var/mobile/Media/MediaAnalysis: Error Domain=NSCocoaErrorDomain Code=513 "You don’t have permission to save the file “MediaAnalysis” in the folder “Media”." UserInfo={NSFilePath=/var/mobile/Media/MediaAnalysis, NSURL=file:///var/mobile/Media/MediaAnalysis, NSUnderlyingError=0x1074df9c0 {Error Domain=NSPOSIXErrorDomain Code=13 "Permission denied"}}
+ERROR		[MADPhotosDataStoreClient][CreateCoordinatorForLibrary] Failed to configure coordinator for photo library /Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/33066A63-A46E-469B-BB5A-F2EAADE8240C/data/Media
+ERROR		[MADPhotosDataStoreClient][QueryMetadata] Failed to retrieve persistent store coordinator for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/33066A63-A46E-469B-BB5A-F2EAADE8240C/data/Media/
+ERROR		[MADPhotosDataStoreClient][QueryMetadata] Failed to fetch database metadata for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/33066A63-A46E-469B-BB5A-F2EAADE8240C/data/Media/
+ERROR		[MADPhotosDataStoreClient][MigrationForLibrary] Failed to query current database version for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/33066A63-A46E-469B-BB5A-F2EAADE8240C/data/Media/
+ERROR		[MADSchedulerBackgroundSystemTask] Database migration incomplete for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/33066A63-A46E-469B-BB5A-F2EAADE8240C/data/Media/
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+DEBUG	com.facebook.react.log:javascript	The `allowsFullscreen` prop is deprecated and will be removed in a future release. Use `fullscreenOptions` prop instead.
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'

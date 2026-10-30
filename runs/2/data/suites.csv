@@ -1,0 +1,1113 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","0","drops the rating when the guest asks for unrated stays","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","33071","[G-PROP-03] Property rules open @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Property details","",""
+"","10","caps a percentage at 100","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should require uppercase letter","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should reject empty OTP","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"DateOfBirthInput Component Tests","4","renders label when provided","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"","1","reads the calendar date out of full ISO timestamps","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","0","should map 404 to INVALID_CREDENTIALS","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","should split the total across services so the lines add up to what was paid","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","14147","[H-SET-04] Payments history loads @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Settings","",""
+"","1","should resize a 12 MP camera photo","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","75768","[G-PROP-01] Property page shows its sections and booking bar @smoke","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Property details","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","13116","[G-SET-10] Support & Legal: FAQ and Terms open with content @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Settings","",""
+"","0","should still allow a no-refund cancel up to 24h after check-in, then close","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","0","should return false when createdAt is not a valid date","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/_example/__tests__","",""
+"","3","resolves apiUrl from a stored override instead of the build environment","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/config","",""
+"","1","should reject mismatched passwords","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","caps the local number at 15 digits","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should require lowercase letter","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","accepts API date-times","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","excludes the states that are not going ahead","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"Let KAVE create your listing (Host manual ch. 4).
+
+The ""List with KAVE"" banner on step 1 only shows while the backend says the
+host is eligible, so H-LRQ-01…03 depend on QA data.","2","[H-LRQ-01] Banner opens the request form with name and email prefilled @data-dependent — SKIPPED: the List with KAVE banner is not offered to the host in QA (not eligible, or no active banner)","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Host · List with KAVE","",""
+"","0","should return an empty string when nothing usable remains","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","2","should default to 15:00 when the time is missing or unreadable","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","1","HTTP 403 maps to REFRESH_FAILED (ends session: true)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/auth/__tests__","",""
+"","0","converts a SAR amount into the display currency","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/currency/__tests__","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","18100","[H-MSG-02] A text sent in a conversation shows in the thread @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Messages","Host · Communication and services","",""
+"","0","returns true for date more than 18 years ago","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should not persist private query [""concierge"",""sessions""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","2","applies the per-environment logging and sentry switches of the override","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/config","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","0","[H-SRV-04] Cancel the new request @mutating — SKIPPED: depends on H-SRV-03","E2E (Detox)","2026-10-30","skipped","2026-10-30","Service requests","Host · Communication and services","",""
+"","0","keeps the guest's dates when both are set","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","0","should use the total for a paid or unknown status","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","0","should not persist private query [""bookings"",""host"",""upcoming""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","13233","[G-SET-05] Payments history loads @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Settings","",""
+"","0","masks key and token query parameters","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Host financials (Host manual ch. 10): Overview and Transactions.
+
+H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
+(the Overview's activity rows only show stay, dates and type).","8685","[H-FIN-03] View all payments opens Transactions @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Financials","",""
+"","0","should prefer message-based error code","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","3956","[X-07] Host sets a custom price for one date → guest sees it → host restores @mutating","E2E (Detox)","2026-10-30","broken","2026-10-30","","Cross-role","",""
+"","4","should reject alphabetic characters","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","7","should return valid for good tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","falls back to the legacy fields when the API omits them","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should return the date when the value is below the minimum","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","should sort rows ascending regardless of selection order","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","reads the author from the nested guest object","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","0","should prefer the override even when it matches no listing rate","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","uses the payout earning for payout records","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"","0","parses D-M-YYYY (single digit day/month)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should return false for expired tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","should map 400 to VALIDATION_ERROR","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","returns null when there is nothing to identify the booking","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","2","should return remaining seconds from JWT exp","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","should validate matching passwords","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","accepts a city name","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should mask phone","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should show the total charged, fee and tax included, on a single-service request","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","0","leaves out blank instructions","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"3-D Secure completion: the sheet hands control back the moment Moyasar's
+callback redirect is seen, keeps a waiting screen up while the payment is
+confirmed, and never fails a payment just because the status endpoint cannot
+see it (the backend answers 404 for a new booking's payment until confirmed).","9","should return a verified payment and keep the waiting screen when the callback says paid","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","1","should combine the check-in date with the property check-in time","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"Guest reviews (Guest manual G7). Data-dependent: stays are found through the
+API at load time (e2e/scripts/qa-data.js).","1","[G-REV-02] Review cannot be submitted with no ratings @data-dependent — SKIPPED: no completed stay inside the 14-day review window for the guest in QA","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Guest · Reviews","",""
+"Card validation and declined payment (Guest manual G3, payment rules).
+
+The validation tests stop on the add-card sheet, so nothing is charged.
+G-BOOK-17 pays with the decline test card; a declined payment leaves no
+confirmed booking, which the test checks through the API.","37217","[G-BOOK-17] The decline test card shows a payment error and no booking is confirmed @mutating","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Payment","",""
+"","1","maps a completed search to the filtered-properties query","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","26745","[G-SET-08] Identity verification cannot be submitted without the ID images @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Settings","",""
+"","1","uses platformServiceFee when tax is 0 (VAT folded into the platform fee)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"","2","should tell a missing booking id apart from a host request without one","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","1","round-trips with formatPhoneNo","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","follows a chain of back-to-back stays on both sides","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should keep the field empty when the host clears it","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","is false without a destination or with only one date","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"Let KAVE create your listing (Host manual ch. 4).
+
+The ""List with KAVE"" banner on step 1 only shows while the backend says the
+host is eligible, so H-LRQ-01…03 depend on QA data.","115714","[H-LRQ-04] My requests → Listing request: every status tab loads @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · List with KAVE","",""
+"","1","should upload the original when resizing fails","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should put the status on the booked service instead of listing it twice","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","1","falls back to local math when calculate-price is unavailable","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","accepts a numeric id","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","1","falls back to a neutral format for other codes","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","0","[H-SRV-03] Full service request with card payment @mutating — SKIPPED: pays for a real service with the test card; needs the service flow stand-ins (follow-up)","E2E (Detox)","2026-10-30","skipped","2026-10-30","Service requests","Host · Communication and services","",""
+"","1","should remove non-digit characters","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","2026-10-02 → true","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","keeps booleans on sensitive keys","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Messages (Guest manual G7) and notifications (G8).","39680","[G-MSG-02] A sent message appears in the thread @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Messages and notifications","",""
+"","0","720 min → 12:00 PM","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Card validation and declined payment (Guest manual G3, payment rules).
+
+The validation tests stop on the add-card sheet, so nothing is charged.
+G-BOOK-17 pays with the decline test card; a declined payment leaves no
+confirmed booking, which the test checks through the API.","33962","[G-BOOK-12] A 15-digit card number and an empty CVV are rejected @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Payment","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","41580","[H-SET-08] Identity verification cannot be submitted without the ID images @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Settings","",""
+"","1","should not require an update when the build meets or exceeds the minimum","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/appUpdate/__tests__","",""
+"","0","falls back to Saudi for bare digits","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should not persist private query [""messaging"",""conversations""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","1","ignores a stored value that is not a known environment","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/config","",""
+"","0","should identify phone","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","should save email and set mode","Unit (Jest)","2026-10-30","passed","2026-10-30","saveRememberedEmail","__tests__/services","",""
+"","0","rejects a single character","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","30 min → 12:30 AM","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","leaves the rest of the body untouched","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","62657","[G-AUTH-08] Forgot password validates the email, then reaches the OTP step @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Authentication","",""
+"","0","should return null if no token saved","Unit (Jest)","2026-10-30","passed","2026-10-30","getAccessToken","__tests__/services","",""
+"","2","should return null when the build number is missing or not a positive whole number","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/appUpdate/__tests__","",""
+"","0","uses the backend relative label rather than re-deriving one","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","16619","[H-AST-02] A typed question gets a reply @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Assistant","Host · Communication and services","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","32717","[H-ADD-13] Step 13: emergency exit info is capped at 250 characters @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"DateOfBirthInput Component Tests","259","renders with placeholder when no date selected","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"","0","defaults the platform fee to the fallback percent","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","keeps the schedule and adds trimmed instructions","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","1","should create error with default message","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","41118","[G-PROP-09] Wishlist heart toggles and persists, then is restored @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Property details","",""
+"","0","only claims reviews when there is a score or a count","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","1","uses Google Maps on iOS when AirGoogleMaps is registered","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","6","should persist public browsing query [""property"",""landing"",{""latitude"":24.7,""longitude"":46.7}]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","20973","[G-CANC-01] [G-CANC-03] Confirm cancellation → success toast → booking is Cancelled @mutating","E2E (Detox)","2026-10-30","passed","2026-10-30","Cancellation","Guest · Stays and cancellation","",""
+"","1","charges the platform fee on the discounted nights total","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","falls back to the nested summary rating","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","1","charges the platform fee on the discounted stay + services","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should fall back to one line with the request total when no per-service lines exist","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","2","allows a 29-night booking and blocks a 30-night one","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should reject empty name","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","no longer shows accepted bookings under Confirmed, or the reverse","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","72033","[G-AUTH-10] Guest becomes a host (no listings → add-listing) and switches back @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Authentication","",""
+"","0","should cap the height of a portrait photo","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","returns false for date less than 18 years ago","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should require an update when the build is below the minimum","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/appUpdate/__tests__","",""
+"","1","should keep an add-on of the same service as its own line","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","1","should use SecureStore again after a transient failure instead of caching it","Unit (Jest)","2026-10-30","passed","2026-10-30","when SecureStore is unavailable","__tests__/services","",""
+"Messages (Guest manual G7) and notifications (G8).","0","[G-MSG-05] Delete a chat created by this run @mutating — SKIPPED: no conversation created by this run alone (guest ↔ host chat is shared)","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Guest · Messages and notifications","",""
+"","2","should match a status tab regardless of the casing the API sends","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","50777","[G-CANC-04] Wizard Back keeps the chosen reason @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Cancellation","Guest · Stays and cancellation","",""
+"","0","should give no refund within 24h of check-in","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"DateOfBirthInput Component Tests","3","uses the localized default placeholder when not provided","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"","3","should clear all stored data","Unit (Jest)","2026-10-30","passed","2026-10-30","clearAll","__tests__/services","",""
+"","0","rounds to one decimal","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"","1","lists Saudi Arabia, the Gulf countries, then Pakistan, USA and Canada","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"","9","resolves the aliases the backend also normalizes","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/currency/__tests__","",""
+"","0","should reject wrong length OTP","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","should include status code","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","follows the selected country","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"","0","should prefill with the date's current price when untouched","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","6","should save all tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","saveTokens","__tests__/services","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","30753","[G-DISC-07] Clear all resets the filters and keeps the search @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Discover","",""
+"","1","should accept a valid whole price","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","matches the full expected order","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/listing/__tests__","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","1","[undefined] Arabic switches the layout to RTL and back to English @regression","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Host · Settings","",""
+"DateOfBirthInput Component Tests","4","has accessibility label","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"","1","should round partial seconds up so the timer never shows 0 early","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/hooks","",""
+"Messages (Guest manual G7) and notifications (G8).","3131","[G-NOTIF-02] Mark all read clears the unread state @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Messages and notifications","",""
+"","1","HTTP 401 maps to REFRESH_FAILED (ends session: true)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/auth/__tests__","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","15271","[H-ADD-10] Step 10: weekday price breakdown — You earned = base − commission @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"Host dashboard (Host manual ch. 2).","44390","[H-DASH-02] Listing status counts add up to the listings on the Listings tab @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Dashboard","",""
+"Support center (Guest manual G9).
+
+G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
+app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","70232","[G-SUP-01] Support center lists tickets per filter; search works @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Support","",""
+"","1","should handle a leap-year February","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","199761","[G-SET-01] Every settings entry opens @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Settings","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","23972","[H-AST-01] A suggestion chip gets a reply @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Assistant","Host · Communication and services","",""
+"","1","should give each requested service its own line, price and request status","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","2506","[H-CAL-07] AI suggestion panel shows for the listing @regression","E2E (Detox)","2026-10-30","failed","2026-10-30","","Host · Calendar","",""
+"","1","should map 5xx to SERVER_ERROR","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Host financials (Host manual ch. 10): Overview and Transactions.
+
+H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
+(the Overview's activity rows only show stay, dates and type).","51447","[H-FIN-04] Every Transactions tab loads; search, status filter and date filter work @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Financials","",""
+"","1","should return false when the item is older than the window","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/_example/__tests__","",""
+"","0","should return none when the item is archived","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/_example/__tests__","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","71643","[G-BOOK-01] Instant booking end to end: pay with the test card → success → booking is Confirmed @smoke @mutating","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Instant booking","",""
+"","0","leaves an undiscounted listing alone","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","coerces the stored string amounts","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","1","should give no refund for a booking made within 24h of check-in","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","1","should map OTP invalid message","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Wishlist (Guest manual G3).","7727","[G-WISH-03] Removing it drops it from the list and lowers the count @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Wishlist","",""
+"","1","omits a blank code rather than sending an empty string","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"Messages (Guest manual G7) and notifications (G8).","27118","[G-NOTIF-04] A preference toggled off survives a relaunch, then is restored @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Messages and notifications","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","23970","[H-ADD-07] Step 6: title is capped; description is required @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"","1","survives a missing or malformed item","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","1","should validate strong password","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","reports an unknown count as null rather than zero","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","0","should reject empty password","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","should skip untouched dates","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","104262","[H-SET-07] Switching currency shows it on prices and the SAR charge note at checkout; restored @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Settings","",""
+"","0","falls back to SAR for anything unsupported","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/currency/__tests__","",""
+"","1","takes a percentage of the list nights total","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should not persist private query [""profile"",""detail""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","1","returns undefined for a missing or invalid percent so the caller falls back","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","renders a dash when the rate is unknown","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"","1","should resize a 24 MP portrait photo","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","should cap the width of a landscape photo","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should include details","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","57311","[G-SET-04] Login & security validates without ever submitting a valid change @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Settings","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","212720","[X-03] Guest cancels an instant booking → host sees it Cancelled @mutating","E2E (Detox)","2026-10-30","passed","2026-10-30","","Cross-role","",""
+"","0","accepts slash separator","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","blocks a stay with no day left to schedule on","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","99617","[G-SET-02] Last name change persists across a relaunch, then is restored @mutating","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Settings","",""
+"","6","follows with the popular countries in their listed order","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","treats a 2xx response without an access token as a rejection","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/auth/__tests__","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","116460","[H-BKG-01] Every bookings tab loads; Completed and Cancelled rows carry their status @smoke","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Bookings","",""
+"","1","survives a review with no guest or rating at all","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","1","falls back to tax for older records without platformServiceFee","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"","0","should reject a negative price","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","should map session expired message","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","takes the night count from the API","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should map email exists message","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","should not persist a query with no string root","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","1","should create tokens with provided values","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","reports that the totals came from the API","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","2","reads the scheme from the leading digits","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","counts nights, not calendar days","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should not persist private query [""support"",""tickets""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","18323","[H-ADD-09] Step 9: check-in and check-out times @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","4164","[H-CAL-02] Base price for the selection: original + 1, then restore @mutating","E2E (Detox)","2026-10-30","failed","2026-10-30","","Host · Calendar","",""
+"","0","keeps Confirmed separate from Accepted","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","7","formats in the selected currency","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/currency/__tests__","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","9976","[H-SRV-02] Add new request: Continue without a property is blocked @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Service requests","Host · Communication and services","",""
+"","0","shows a placeholder for non-finite amounts","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/currency/__tests__","",""
+"Messages (Guest manual G7) and notifications (G8).","16231","[G-NOTIF-03] Scrolling to the end loads more (when there is more than a page) @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Messages and notifications","",""
+"","0","should reject too short phone","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","returns false for date 17 years and 1 day ago (not yet 18)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","954","[X-06] Host blocks a date → guest cannot book it → host unblocks → guest can @mutating","E2E (Detox)","2026-10-30","broken","2026-10-30","","Cross-role","",""
+"","1","should read per-service lines off a list row when the API sends them","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","1","omits the key when no promo was applied","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","8","recognises the card schemes","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should not persist private query [""property"",""host-list"",{}]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","0","falls through to other for an unknown status","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"Guest reviews (Guest manual G7). Data-dependent: stays are found through the
+API at load time (e2e/scripts/qa-data.js).","69045","[G-REV-04] Profile → Reviews lists the guest's reviews or the empty state @data-dependent","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Reviews","",""
+"3-D Secure completion: the sheet hands control back the moment Moyasar's
+callback redirect is seen, keeps a waiting screen up while the payment is
+confirmed, and never fails a payment just because the status endpoint cannot
+see it (the backend answers 404 for a new booking's payment until confirmed).","2","should hand an unverified payment to confirm when the sheet closes and the status is never found","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","1","falls back to the transaction code when there is no booking code","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should not block when the build or the minimum is unknown","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/appUpdate/__tests__","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","0","[H-COH-05] Remove the co-host @mutating — SKIPPED: depends on H-COH-02","E2E (Detox)","2026-10-30","skipped","2026-10-30","Co-hosts","Host · Communication and services","",""
+"","0","should return null for invalid response","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","13055","[G-SET-03] Address (apartment / suite) saves and is restored @mutating","E2E (Detox)","2026-10-30","broken","2026-10-30","","Guest · Settings","",""
+"","1","should reject empty phone","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","keeps the API list sum for the nights row","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","appends a percent sign","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","3535","[H-CAL-03] Per-date price: set original + 1, then restore @mutating","E2E (Detox)","2026-10-30","failed","2026-10-30","","Host · Calendar","",""
+"","0","accepts a Saudi mobile number","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","returns today","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should return ""Expired"" for expired tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","matches the statuses the API actually sends","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","should give 70% after the first 24h and until 24h before check-in","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","19968","[G-STAY-04] Message host opens the conversation with this host @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Stays","Guest · Stays and cancellation","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","39092","[G-BOOK-09] A valid promo code lowers the total; removing it restores the total @regression @data-dependent","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Instant booking","",""
+"","0","should return null when the edited value is valid","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","10873","[G-AUTH-03] Empty password is rejected @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Authentication","",""
+"","0","returns null for invalid date values","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should not resize when the size is unknown","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","returns null when there is nothing to divide by","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"","1","returns nothing on the check-out day or after the stay","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","0","should require minimum length","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should map 401 to SESSION_EXPIRED","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","36908","[H-BKG-03] Booking details show guest, dates, guests and payment details; Message guest is offered @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Bookings","",""
+"","1","counts active bookings and ignores cancelled or rejected ones","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should parse a whole build number","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/appUpdate/__tests__","",""
+"","0","should support custom length","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","keeps every supported country exactly once","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","does not stack the promo with the listing discount — the larger one wins","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should map 403 to ACCOUNT_DISABLED","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","should reject invalid email format","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should not persist private query [""host-transactions"",""list"",""payments"","""","""","""",""""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","0","starts today at the next hour after now","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should return false for valid tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","2","should return the custom override when one exists for the date","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","passes with every field filled","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should still list a booking-included request that matches no booked service","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","1","recognises the wallets","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","sends the verified payment id after 3DS","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","1","should clear all tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","clearTokens","__tests__/services","",""
+"","1","2026-10-01 → false","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","1","[X-01] Request → host approves → guest pays → host sees Confirmed @smoke @mutating — SKIPPED: E2E_REQUEST_PROPERTY_ID is empty (the E2E REQUEST listing is not approved yet)","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Cross-role","",""
+"Support center (Guest manual G9).
+
+G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
+app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","12015","[G-SUP-04] Reply on the new ticket shows in the thread @mutating","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Support","",""
+"","0","1410 min → 11:30 PM","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","2","keeps the booking setting step before photos","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/listing/__tests__","",""
+"","1","takes the discount total from the API rather than one property percent","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","2","[undefined] Every settings entry opens @regression","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Host · Settings","",""
+"","1","formats single-digit day with no leading zero","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"3-D Secure completion: the sheet hands control back the moment Moyasar's
+callback redirect is seen, keeps a waiting screen up while the payment is
+confirmed, and never fails a payment just because the status endpoint cannot
+see it (the backend answers 404 for a new booking's payment until confirmed).","1","should fail when the status reports the payment failed","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","1","applies a per-property platform fee rate from the backend","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","derives the rate from the night-stay subtotal","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","1","[H-COH-04] Assign another property @mutating — SKIPPED: depends on H-COH-02","E2E (Detox)","2026-10-30","skipped","2026-10-30","Co-hosts","Host · Communication and services","",""
+"","0","should match by name when a service id is missing on either side","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","3663","[H-CAL-04] Block a future date, see it blocked, then unblock @mutating","E2E (Detox)","2026-10-30","failed","2026-10-30","","Host · Calendar","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","9226","[G-BOOK-03] Change guests in the summary cannot exceed the listing maximum @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Instant booking","",""
+"","1","should return invalid for null tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","1","[H-BKG-04] Approve a pending request @mutating — SKIPPED: covered by X-01 (needs a request made in the same run)","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Host · Bookings","",""
+"","0","should not flag a response that does not require 3DS","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","13729","[H-SET-02] Address (apartment / suite) saves and is restored @mutating","E2E (Detox)","2026-10-30","broken","2026-10-30","","Host · Settings","",""
+"","1","reads a top-level or nested string id","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","1","should trim whitespace","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should not persist private query [""listing-request"",""mine"",""req_1""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","1","reads the count from any of the names the API has used","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","0","falls back to the next 10 days when no dates are picked","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","1","should map 408 to TIMEOUT","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","should overwrite an existing custom override on a non-listed date","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","lists the remaining countries alphabetically","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","reports a total that matches the route list","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/listing/__tests__","",""
+"","1","should resize a large photo and re-save it as JPEG","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Public content and the guest assistant (Guest manual G11).","87032","[G-PUB-01] About, FAQ, Terms, cancellation policy and the services catalog open @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Public pages and assistant","",""
+"","0","exposes the payable stay total for the ""for N nights"" headline","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","690 min → 11:30 AM","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","is true for a city-only search without dates","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","1","should map OTP expired message","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","accepts a full ISO timestamp as the date","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should create error from status code","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","keeps the gateway when nothing more specific exists","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should return one row per selected date, never merging equal prices","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","should return true for expired tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","requires a number","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","1","[H-SET-08b] Identity verification full submit @mutating — SKIPPED: would permanently change the shared QA account's verification status","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Host · Settings","",""
+"","0","falls back to a generic card rather than guessing","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","300446","[X-05] Messaging round trip: guest → host → guest @regression","E2E (Detox)","2026-10-30","broken","2026-10-30","","Cross-role","",""
+"","0","sums the summary lines to the grand total","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","never treats a booking count as a review count","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","0","should skip a date holding an invalid value","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","70716","[H-MSG-01] Messages list loads @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Messages","Host · Communication and services","",""
+"","0","should map phone exists message","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","should not match a booking against a different status tab","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"Host sign-in and role (Host manual ch. 2).","63610","[H-AUTH-01] Host account signs in and ends on the dashboard @smoke","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Sign-in & role","",""
+"","0","should extract userId from top-level","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should return the weekend rate for a Saturday with no override","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","HTTP 400 maps to REFRESH_FAILED (ends session: true)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/auth/__tests__","",""
+"","0","never shows a negative fee when the stored total is lower than the rows","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","0","labels as SAR rather than mislabelling when no rate is available","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/currency/__tests__","",""
+"","0","should reject too short name","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","810 min → 1:30 PM","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","allows a confirmed stay with days left","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","0","should treat an unpaid booking as nothing paid","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","5869","[H-ADD-04] Step 4: choose Request booking @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"","1","should keep the whole total at 0%","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","0","still lets a bigger promo win over the calendar discount","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should return false for null tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","should accept both spellings of cancelled","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","40580","[G-DISC-03] A nonsense destination shows ""No properties found"" @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Discover","",""
+"","1","places Describe your place immediately after Upload photos","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/listing/__tests__","",""
+"","2","repoints apiUrl for the rest of the session when set","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/config","",""
+"","1","starts with Saudi Arabia (+966)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"Listings management (Host manual ch. 6).
+
+Not on mobile: ""My listings / Co-hosting"" tabs (H-LIST-01), status filter
+and date picker (part of H-LIST-02). See e2e/COVERAGE.md.","21703","[H-LIST-03] Each card shows the listing's status badge @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Listings management","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","1","[G-BOOK-04] Select one service and schedule it @regression — SKIPPED: the instant QA listing offers no add-on services","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Guest · Instant booking","",""
+"","2","rejects a too-short number","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","replaces ids so one endpoint groups into one Sentry issue","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should send only the date the host edited","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","1","[G-PROP-07] Fewer nights than the minimum stay shows an error @regression — SKIPPED: no public QA listing with a minimum stay and future bookings","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Guest · Property details","",""
+"","0","should not persist private query [""booking"",""current-or-upcoming""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","1","offers the whole day in hours for a later date","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","HTTP 408 maps to NETWORK_ERROR (ends session: false)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/auth/__tests__","",""
+"","0","should return true for tokens near expiry (within 5 minutes)","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","43642","[G-AUTH-02] Wrong password shows an error and stays on sign-in @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Authentication","",""
+"","1","ignores a missing or non-positive promo","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","41867","[G-AUTH-01] Sign in with valid guest email and password @smoke","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Authentication","",""
+"","1","passes without the optional country code and city","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Listings management (Host manual ch. 6).
+
+Not on mobile: ""My listings / Co-hosting"" tabs (H-LIST-01), status filter
+and date picker (part of H-LIST-02). See e2e/COVERAGE.md.","80263","[H-LIST-02] Search by listing name narrows the list @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Listings management","",""
+"","0","should persist public browsing query [""property"",""amenities""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","15237","[G-STAY-06] An empty tab shows ""No stays"" with Explore properties, which opens discovery @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Stays","Guest · Stays and cancellation","",""
+"","0","rejects anything that is not two letters","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should not persist private query [""cohost"",""list"",{}]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","0","should return email mode","Unit (Jest)","2026-10-30","passed","2026-10-30","getAuthMode","__tests__/services","",""
+"","9","should produce one payload in calendar order","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","fails when the mobile number is missing","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","uses Google Maps on Android","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should return no rows when nothing is selected","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"Let KAVE create your listing (Host manual ch. 4).
+
+The ""List with KAVE"" banner on step 1 only shows while the backend says the
+host is eligible, so H-LRQ-01…03 depend on QA data.","1","[H-LRQ-02] Sending with an empty or invalid phone is rejected @data-dependent — SKIPPED: the List with KAVE banner is not offered to the host in QA (not eligible, or no active banner)","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Host · List with KAVE","",""
+"","0","skips levels below the configured level","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Card validation and declined payment (Guest manual G3, payment rules).
+
+The validation tests stop on the add-card sheet, so nothing is charged.
+G-BOOK-17 pays with the decline test card; a declined payment leaves no
+confirmed booking, which the test checks through the API.","112973","[G-BOOK-10] A past expiry date is rejected @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Payment","",""
+"","0","uppercases and clips the country code to two letters","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","prefers a real brand over the gateway name","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should extract userId from data.userId","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","changes when a query-affecting filter changes","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","1","should reject a price below the backend minimum","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","hides the chip when the backend sends no trend","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"","1","should sanitize phone before validation","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"3-D Secure completion: the sheet hands control back the moment Moyasar's
+callback redirect is seen, keeps a waiting screen up while the payment is
+confirmed, and never fails a payment just because the status endpoint cannot
+see it (the backend answers 404 for a new booking's payment until confirmed).","3","should fail with the callback message and hide the sheet when the callback says failed","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","0","[X-02] Request → host rejects → guest sees Rejected @mutating — SKIPPED: E2E_REQUEST_PROPERTY_ID is empty (the E2E REQUEST listing is not approved yet)","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Cross-role","",""
+"","0","should set default expiry if not provided","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","should round money to 2 decimals","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","0","[H-SRV-05] Service payment row in Payments @mutating — SKIPPED: depends on H-SRV-03","E2E (Detox)","2026-10-30","skipped","2026-10-30","Service requests","Host · Communication and services","",""
+"","1","is true once the search sheet has been submitted","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","0","reaches the total: 67 - 6.40 + 1.82","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","3769","[H-CAL-05] ""Block all"" for the selection blocks and unblocks @mutating","E2E (Detox)","2026-10-30","failed","2026-10-30","","Host · Calendar","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","54731","[H-SET-03] Login & security validates without ever submitting a valid change @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Settings","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","1","[H-COH-03] Manage permissions @mutating — SKIPPED: depends on H-COH-02","E2E (Detox)","2026-10-30","skipped","2026-10-30","Co-hosts","Host · Communication and services","",""
+"","1","should accept every booking on the ""all"" tab","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","0","2026-10-04 → false","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Wishlist (Guest manual G3).","97655","[G-WISH-01] Adding a property lists it and raises the count by one @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Wishlist","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","13539","[H-COH-01] Invite with an invalid email is rejected @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Co-hosts","Host · Communication and services","",""
+"","1","should let the host give each date a different price","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","should accept a valid decimal price","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","ignores blank candidates","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should keep a single decimal point","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","should return phone mode","Unit (Jest)","2026-10-30","passed","2026-10-30","getAuthMode","__tests__/services","",""
+"Host sign-in and role (Host manual ch. 2).","30277","[H-AUTH-02] Host switches to guest mode and back @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Sign-in & role","",""
+"Wishlist (Guest manual G3).","9995","[G-WISH-02] Tapping a saved property opens it @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Wishlist","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","6541","[H-ADD-12] Step 12: a discount can be selected @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"","1","should format 10-digit number","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should include user action for applicable errors","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","sends only the payment credential","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","2","drops a pasted 966 prefix for Saudi numbers","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host financials (Host manual ch. 10): Overview and Transactions.
+
+H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
+(the Overview's activity rows only show stay, dates and type).","73870","[H-FIN-01] Overview shows Total earnings, Pending payments, Total paid and Refund deductions @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Financials","",""
+"","0","is the same list on the auth phone fields","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"Messages (Guest manual G7) and notifications (G8).","0","[G-MSG-04] Over-limit attachment is rejected @regression — SKIPPED: chat attachments use the system photo picker, not mocked in E2E builds yet","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Guest · Messages and notifications","",""
+"","1","should return invalid for empty access token","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","54038","[G-PROP-05] Valid dates and guests show the stay price @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Property details","",""
+"","0","should return null for an unreadable date","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","1","should mark non-recoverable errors correctly","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","never converts a charge amount","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/currency/__tests__","",""
+"","0","should give a full refund within 24h of booking when check-in is over 24h away","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","1","skips a slot that is exactly now","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host financials (Host manual ch. 10): Overview and Transactions.
+
+H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
+(the Overview's activity rows only show stay, dates and type).","44304","[H-FIN-02] Payment details: subtotal = nights − discount; net earning = subtotal − commission @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Financials","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","54231","[G-DISC-01] Explore loads the search entry and curated sections @smoke","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Discover","",""
+"","2","sends the applied code","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","0","should require special character","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","30712","[G-PROP-06] Guests cannot exceed the listing capacity @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Property details","",""
+"","1","defaults to the Saudi dial code","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","HTTP 0 maps to NETWORK_ERROR (ends session: false)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/auth/__tests__","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","10544","[G-DISC-08] Map button opens the map view and back @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Discover","",""
+"","0","quotes the same total as the web checkout","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","116218","[G-PROP-11] Reserve opens the booking flow and leads to Review & book with the card @smoke","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Instant booking","",""
+"","1","reduces errors to name and message","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","101661","[H-ADD-01] Step 1: Next is enabled only after a property type is chosen @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"","0","should return true for null tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Host dashboard (Host manual ch. 2).","84522","[H-DASH-04b] Reservations ""Last 2 years"" keeps the dashboard loaded @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Dashboard","",""
+"","0","should return true on the exact window boundary","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/_example/__tests__","",""
+"Public content and the guest assistant (Guest manual G11).","17449","[G-PUB-02] The assistant answers a question (reply text not asserted) @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Public pages and assistant","",""
+"","0","should reject a price above the backend maximum","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","2","should return a small photo unchanged","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","104460","[H-CAL-01] Pick a property and move between months @regression","E2E (Detox)","2026-10-30","failed","2026-10-30","","Host · Calendar","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","14617","[H-SET-09] Support & Legal: FAQ and Terms open with content @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Settings","",""
+"","0","should show the host's draft once they type","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","should never go below zero after the deadline","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/hooks","",""
+"","0","should reject empty email","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should validate correct name","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should accept camera and library photo formats","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","should save phone and set mode","Unit (Jest)","2026-10-30","passed","2026-10-30","saveRememberedPhone","__tests__/services","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","19931","[H-BKG-02] Search by booking code narrows the list to that booking @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Bookings","",""
+"","0","drives the listing country dropdown","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should skip a prefilled value the host did not change","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","returns new tokens when the refresh succeeds","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/auth/__tests__","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","11297","[G-BOOK-06] Price breakdown: Total = nights − discount + services + platform fee, same as the review total @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Instant booking","",""
+"Host reviews (Host manual ch. 14).
+
+DIFFERS: mobile has no host reviews dashboard (overall score, category
+averages, sort). Profile → Reviews lists the reviews written about you, so
+H-REV-01 checks that list and H-REV-02 is not on mobile (COVERAGE.md).","86923","[H-REV-01] Profile → Reviews lists the reviews about the host (or the empty state) @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Reviews","",""
+"","0","uses the selected dial code for other countries","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should not persist private query [""property"",""detail"",""prop_1""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","0","splits a stored phoneNo into dial code and digits","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Messages (Guest manual G7) and notifications (G8).","1","[G-MSG-03] Attach a file to a message @regression — SKIPPED: chat attachments use the system photo picker, not mocked in E2E builds yet","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Guest · Messages and notifications","",""
+"","5","should return the weekday rate for a weekday with no override","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","is stable for filters that do not change the query","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","0","should reject unsupported special characters","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","names guest and host invoices by booking code","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should return false for tokens not near expiry","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","should take a 30% fee on the whole total at 70%","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","0","should not resize an image already within the limit","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","2","parses DD-MM-YYYY string","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should not persist private query [""serviceRequest"",""list""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","0","[H-BKG-05] Reject a pending request @mutating — SKIPPED: covered by X-02 (needs a request made in the same run)","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Host · Bookings","",""
+"","1","should validate correct email","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","18","uses the build-time environment when nothing is stored","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/config","",""
+"","1","should extract tokens from top-level","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","keeps the rows adding up to the charged total","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","9","shows everything under All","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","should map unknown status to UNKNOWN","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","should map 429 to ACCOUNT_LOCKED","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","should extract userId from data.id","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","4","should never write a token or password to plain-text AsyncStorage","Unit (Jest)","2026-10-30","passed","2026-10-30","when SecureStore is unavailable","__tests__/services","",""
+"","0","converts a backend percent into a rate","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host dashboard (Host manual ch. 2).","53239","[H-DASH-04] Reservations period menu switches between 6 and 12 months @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Dashboard","",""
+"","0","puts Saudi Arabia first","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","1","[H-BKG-06] Cancel booking with full refund @mutating — SKIPPED: covered by X-04 (host cancels a booking made in the same run)","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Host · Bookings","",""
+"","2","reconstructs the base when the row omits subtotal","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"DateOfBirthInput Component Tests","5","shows error message when error prop is passed","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"","0","HTTP 429 maps to SERVER_ERROR (ends session: false)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/auth/__tests__","",""
+"","1","treats a back-to-back booking as one continuous stay","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","handles an empty or unknown value","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should extract tokens from nested data","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should return false when the item claims to be created in the future","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/_example/__tests__","",""
+"","0","should return none when the item is undefined","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/_example/__tests__","",""
+"","1","treats a gateway name as a generic card, never as Visa","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","20074","[H-ADD-11] Step 11: weekend premium accepts 0–100 and clamps above 100 @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","3633","[H-CAL-06] Special discount preview: new = original × (1 − %) (not applied) @regression","E2E (Detox)","2026-10-30","failed","2026-10-30","","Host · Calendar","",""
+"","1","returns false for future date","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","charges the platform fee on the nights subtotal when no service is picked","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","2","should not persist private query [""payments"",""list"",""payments""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","51295","[G-DISC-06] Filter sheet: type, beds, rating, amenity → results @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Discover","",""
+"","0","should exclude bookings with no status from every status tab","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","20689","[G-BOOK-02] Change dates in the summary updates the nights and the total @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Instant booking","",""
+"","1","does not double-apply when the API did report a discount","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","8281","[G-AUTH-05] Email / Phone toggle swaps the identifier field @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Authentication","",""
+"","1","should return a namespaced translation key for each status","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/_example/__tests__","",""
+"","0","leaves only the last slot just before 11:00 PM","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","21243","[G-SET-07] Arabic switches the layout to RTL and back to English @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Settings","",""
+"","1","drops the days that already passed on an ongoing stay","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","10971","[G-STAY-05] Get directions and Share hand off to another app; the app comes back @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Stays","Guest · Stays and cancellation","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","16531","[G-STAY-02] Search by property name shows this run's booking @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Stays","Guest · Stays and cancellation","",""
+"","1","should not persist private query [""trips"",""list"",""guest""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","2","should persist public browsing query [""wishlist"",""list""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","106976","[G-SET-06] [G-BOOK-16] Switching currency shows it on prices and the SAR charge note at checkout; restored @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Settings","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","10693","[G-CANC-02] Cancelling needs the policy acknowledged first @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Cancellation","Guest · Stays and cancellation","",""
+"","1","should return the challenge when every field is present","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","42249","[G-PROP-02] ""Show more"" expands the description; amenities list opens @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Property details","",""
+"","2","matches the web checkout figures","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","returns null for a negative commission rather than showing a bogus rate","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","31935","[H-ADD-14] Save & Exit keeps a draft that resumes where it stopped @mutating","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Add property","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","34841","[G-PROP-08] A range over booked nights is rejected @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Property details","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","4877","[G-BOOK-07] Applying an empty promo code asks for one @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Instant booking","",""
+"","0","should return ""No token"" for null","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","accepts the supported codes in any casing","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/currency/__tests__","",""
+"","1","pads single-digit day and month","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","29849","[H-ADD-03] Step 3: address fields are required @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"","2","should save access token","Unit (Jest)","2026-10-30","passed","2026-10-30","saveAccessToken","__tests__/services","",""
+"","0","formats date as DD-MM-YYYY","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","omits the Google provider on iOS when AirGoogleMaps is missing","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","names payouts by payout code","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","returns nothing for missing or inverted dates","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"3-D Secure completion: the sheet hands control back the moment Moyasar's
+callback redirect is seen, keeps a waiting screen up while the payment is
+confirmed, and never fails a payment just because the status endpoint cannot
+see it (the backend answers 404 for a new booking's payment until confirmed).","1","should read the result from the callback redirect","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","0","blocks cancelled, rejected and completed bookings","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","6038","[H-ADD-08] Step 8: amenities can be selected @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"","1","returns a date exactly 18 years ago from today","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host dashboard (Host manual ch. 2).","56220","[H-DASH-05] Recent bookings: search narrows the list; View All opens Bookings @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Dashboard","",""
+"","1","caps the discount at the nights subtotal and never goes negative","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","returns the SAR amount unchanged when the rate is missing","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/currency/__tests__","",""
+"","1","should reprice the whole month except the individually-listed dates","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","should skip dates already sitting at the base price","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","should return formatted time for valid tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","should leave documents, GIFs and SVGs untouched","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","offers the full next day just before midnight","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","masks secrets and personal data by key, at any depth","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","12697","[G-DISC-04] Price sorts order the category list by price @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Discover","",""
+"Card validation and declined payment (Guest manual G3, payment rules).
+
+The validation tests stop on the add-card sheet, so nothing is charged.
+G-BOOK-17 pays with the decline test card; a declined payment leaves no
+confirmed booking, which the test checks through the API.","17604","[G-BOOK-11] A single-word cardholder name is rejected @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Payment","",""
+"","0","returns true for date exactly 18 years ago","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","still treats a confirmed booking as going ahead","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","44995","[G-AUTH-07] Session persists after the app is relaunched @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Authentication","",""
+"","0","should persist public browsing query [""property"",""property-detail"",""prop_1""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","1","should return null if no mode set","Unit (Jest)","2026-10-30","passed","2026-10-30","getAuthMode","__tests__/services","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","50719","[G-AUTH-06] Log out returns to signed-out state; protected screens ask to sign in @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Authentication","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","6171","[H-AST-03] New chat keeps the previous one in the history @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Assistant","Host · Communication and services","",""
+"","1","matches the web breakdown for a discounted stay","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"","0","should map 409 to EMAIL_EXISTS","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","should flag a nested response that requires 3DS but lacks the payment id","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","1","should return nothing when the field is empty","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","should carry each date's own price for the story's mixed-price example","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","0 min → 12:00 AM","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should extract userId from nested user object","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","7269","[H-ADD-17] Back from step 4 keeps the step 3 address @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"","0","masks details before printing","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","accepts an ISO alpha-2 code","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should return null for invalid token format","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","13611","[H-ADD-16] Step 14: licence details + PDF from Files, then submit for approval @mutating — SKIPPED: E2E REQUEST listing PR-3155 already submitted (Pending)","E2E (Detox)","2026-10-30","skipped","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"","0","should cap decimals at two places","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","never produces an unsafe name","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","prefers the API display prices over weekday/discountedValue","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should return UNKNOWN for unrecognized messages","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","should return the full duration at the start","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/hooks","",""
+"","3","only offers environments that have a URL in this bundle","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/config","",""
+"Let KAVE create your listing (Host manual ch. 4).
+
+The ""List with KAVE"" banner on step 1 only shows while the backend says the
+host is eligible, so H-LRQ-01…03 depend on QA data.","0","[H-LRQ-03] Sending the request confirms it @mutating @data-dependent — SKIPPED: the List with KAVE banner is not offered to the host in QA (not eligible, or no active banner)","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Host · List with KAVE","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","160921","[H-SET-01] Last name change persists across a relaunch, then is restored @mutating","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Settings","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","21096","[G-PROP-04] Without dates the bar offers ""Explore dates"" @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Property details","",""
+"Support center (Guest manual G9).
+
+G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
+app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","8357","[G-SUP-02] A new request cannot be submitted until title, category and description are filled @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Support","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","266506","[X-04] Host cancels an instant booking → guest sees it Cancelled @mutating","E2E (Detox)","2026-10-30","passed","2026-10-30","","Cross-role","",""
+"","1","should read the size first when the caller does not know it","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","should price Friday and Saturday at the weekend rate, Sunday at the weekday rate","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"3-D Secure completion: the sheet hands control back the moment Moyasar's
+callback redirect is seen, keeps a waiting screen up while the payment is
+confirmed, and never fails a payment just because the status endpoint cannot
+see it (the backend answers 404 for a new booking's payment until confirmed).","0","should decode an encoded message","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","0","locks the build to production whatever EXPO_PUBLIC_APP_ENV says","Unit (Jest)","2026-10-30","skipped","2026-10-30","","__tests__/config","",""
+"","1","prefers the overall rating over the star rating","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","0","should treat a cleared field as untouched rather than invalid","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","clamps a fixed amount to the nights total","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should identify email","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","1","derives the net earning when the API does not send it","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"","0","should return the date when the value is not a number","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","should return false when createdAt is missing","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/_example/__tests__","",""
+"Wishlist (Guest manual G3).","15677","[G-WISH-04] An empty wishlist shows the empty state with Explore @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Wishlist","",""
+"","1","sends a service without a schedule or instructions as a bare line","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","2","has nothing left today from 11:00 PM to midnight","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","0","[G-SET-09] Identity verification full submit @mutating — SKIPPED: would permanently change the shared QA account's verification status","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Guest · Settings","",""
+"","1","should require digit","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","treats an empty value as valid — the field is optional","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","1","[H-MSG-03] Conversation ⋮ options @regression — SKIPPED: destructive options only on chats this run created, and host chats are shared with real guests","E2E (Detox)","2026-10-30","skipped","2026-10-30","Messages","Host · Communication and services","",""
+"","1","should map invalid credentials message","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","49217","[G-DISC-05] Distance sort with location allowed, then denied @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Discover","",""
+"","4","should validate correct OTP","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","should mask email","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","should persist public browsing query [""reviews"",""property"",""prop_1""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","36554","[G-STAY-03] Booking details show payment summary and the actions for a confirmed stay @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Stays","Guest · Stays and cancellation","",""
+"3-D Secure completion: the sheet hands control back the moment Moyasar's
+callback redirect is seen, keeps a waiting screen up while the payment is
+confirmed, and never fails a payment just because the status endpoint cannot
+see it (the backend answers 404 for a new booking's payment until confirmed).","2","should return a verified payment once the status reports it paid","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","0","[G-BOOK-05] Services Back keeps dates and guests @regression — SKIPPED: the instant QA listing offers no add-on services","E2E (Detox)","2026-10-30","skipped","2026-10-30","","Guest · Instant booking","",""
+"","1","should return all tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","getTokens","__tests__/services","",""
+"","1","should still read the access token when the migration storage call fails","Unit (Jest)","2026-10-30","passed","2026-10-30","legacy key migration failure","__tests__/services","",""
+"","1","keeps Arabic city names","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","6908","[H-ADD-05] Step 7: pick an access method @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"","1","treats an empty value as valid — the field is optional","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","crosses month boundaries","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","0","recognises any dial code","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should parse valid JWT payload","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","returns every night of an upcoming stay, excluding the check-out day","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"","1","should reject empty confirmation","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","round-trips a display amount back to SAR","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/currency/__tests__","",""
+"","0","should return empty for empty input","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","names refunds by refund id, then booking code","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","should list every day of a 31-day month","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","has no duplicate routes","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/listing/__tests__","",""
+"","8","ignores a stored environment whose URL is no longer in the bundle","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/config","",""
+"","1","should accept the exact minimum and maximum","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"3-D Secure completion: the sheet hands control back the moment Moyasar's
+callback redirect is seen, keeps a waiting screen up while the payment is
+confirmed, and never fails a payment just because the status endpoint cannot
+see it (the backend answers 404 for a new booking's payment until confirmed).","4","should still fail when the sheet closes while the status is known to be unpaid","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","0","has nothing for a past date or no date","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host dashboard (Host manual ch. 2).","61678","[H-DASH-03] Earnings (revenue) period menu switches every option @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Dashboard","",""
+"","6","resolves 1-based step numbers and clamps out-of-range values to step1","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/listing/__tests__","",""
+"","6","should count time spent in the background","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/hooks","",""
+"","0","should return an empty payload when nothing changed","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","uses the list sum for the nights row, not average x nights","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","includes a stay that starts the day the selected one ends","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","29716","[H-SRV-01] Every service request tab loads @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Service requests","Host · Communication and services","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","47500","[G-DISC-02] Search Where / When / Who returns results @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Discover","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","14992","[H-ADD-02] Step 2: Next is blocked until guests, beds and bathrooms are set @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"","1","uses the Saudi mobile format for +966","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"","2","returns to the build environment when cleared","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/config","",""
+"Host dashboard (Host manual ch. 2).","50440","[H-DASH-06] An AI insight action navigates away from the dashboard (nothing is applied) @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Dashboard","",""
+"","1","should skip a cleared field rather than treating it as zero","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","falls back to the booking code","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","1","applies the property percentage when the API sends no discount","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","115523","[G-AUTH-11] Signed out: Reserve asks to sign in and the booking resumes after login @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Instant booking","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","10518","[G-AUTH-04] Invalid email format is rejected inline @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Authentication","",""
+"","0","should reject an empty value","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"DateOfBirthInput Component Tests","4","renders with formatted date when value is set","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/components/forms/__tests__","",""
+"","1","prints nothing when logging is disabled","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","trims the code","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","0","reproduces the guide example: 67 nights, 6.40 off, 2.01 fee, 62.61 total","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"Host dashboard (Host manual ch. 2).","107826","[H-DASH-01] Summary cards show numeric values @smoke","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Dashboard","",""
+"","0","treats a review with no written comment as empty","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","0","should flag a response that requires 3DS but lacks the transaction URL","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","1","should strip letters and symbols","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","formats date as MMM DD, YYYY","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","0","signs the value","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"","0","should return publish when the item is a draft","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/_example/__tests__","",""
+"","0","ignores stays separated by at least one night","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should never touch a PDF","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","reports nothing to render for a booking with no stored amounts","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","0","uses the date when no reference is known","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","routes each status to its own tab","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","23562","[G-DISC-04b] Every other sort option reloads the category list @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Discover","",""
+"","1","is tolerant of casing and separators","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","1","omits empty filters so the backend gets no blank params","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/property/__tests__","",""
+"","1","prefers the id over the code","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","69981","[H-SET-06] Every notification category toggles off and back on @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Settings (host only)","",""
+"","2","should return true when the item was created inside the window","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/_example/__tests__","",""
+"","0","should return edit when the item is active","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/_example/__tests__","",""
+"","0","should validate correct phone number","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"","0","2026-10-03 → true","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","2","should derive expiry from JWT exp claim when present","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","0","omits the Google provider in Expo Go so Apple Maps can render","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","1","should read a challenge nested under data","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","0","should map locked message","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","1","[H-COH-02] Invite a co-host and assign a property @mutating — SKIPPED: sends a real invitation email; needs the user's go-ahead for the +cohost alias (follow-up)","E2E (Detox)","2026-10-30","skipped","2026-10-30","Co-hosts","Host · Communication and services","",""
+"","0","should add country code","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Messages (Guest manual G7) and notifications (G8).","4181","[G-NOTIF-01] Notification inbox shows the count label or the empty text @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Messages and notifications","",""
+"Support center (Guest manual G9).
+
+G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
+app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","19963","[G-SUP-03] Create a ticket → success → it is listed as Open @mutating","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Support","",""
+"","4","HTTP 503 maps to SERVER_ERROR (ends session: false)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/auth/__tests__","",""
+"","2","falls back on older records without the list total or rate","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"3-D Secure completion: the sheet hands control back the moment Moyasar's
+callback redirect is seen, keeps a waiting screen up while the payment is
+confirmed, and never fails a payment just because the status endpoint cannot
+see it (the backend answers 404 for a new booking's payment until confirmed).","3","should ignore another payment, a URL without a status, and the bank pages","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/booking/__tests__","",""
+"","1","should return saved token","Unit (Jest)","2026-10-30","passed","2026-10-30","getAccessToken","__tests__/services","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","7507","[H-AST-04] Contact Support opens the support center @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","Assistant","Host · Communication and services","",""
+"Host sign-in and role (Host manual ch. 2).","182083","[H-AUTH-03] Every host navigation entry opens @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Sign-in & role","",""
+"","1","should reject ""pending"" as userId","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","6800","[G-BOOK-08] An invalid promo code is rejected and the total is unchanged @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Instant booking","",""
+"","0","returns null for empty or invalid input","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"","2","should create error with custom message","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/domain","",""
+"","1","should not persist private query [""payout-accounts"",""list""]","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/system/providers/__tests__","",""
+"","0","charges the platform fee on nights + services","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","116857","[H-ADD-06] Step 5: at least 3 photos; the first is the cover @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","full wizard (one listing, step by step)","Host · Add property","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","167021","[G-STAY-01] Every Stays tab loads; Cancelled and Completed cards carry their status @smoke","E2E (Detox)","2026-10-30","passed","2026-10-30","Stays","Guest · Stays and cancellation","",""
+"","1","keeps parsePhoneNoToDigits behaviour for Saudi numbers","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Host financials (Host manual ch. 10): Overview and Transactions.
+
+H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
+(the Overview's activity rows only show stay, dates and type).","31737","[H-FIN-05] Payment details → invoice offers Print and Download @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Host · Financials","",""
+"Guest reviews (Guest manual G7). Data-dependent: stays are found through the
+API at load time (e2e/scripts/qa-data.js).","8377","[G-REV-03] A stay older than 14 days shows ""Review period expired"" @data-dependent","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Reviews","",""
+"","2","falls back to the build environment when the keychain read throws","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/config","",""
+"","1","should return null when nothing was edited","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","should skip a request that names no service at all","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/serviceRequest/__tests__","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","19333","[G-AUTH-09] Sign-up screen validates email and offers social sign-up @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Authentication","",""
+"","0","should refund everything at 100%","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/trips/__tests__","",""
+"","1","should return nothing when the field is invalid","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/host/__tests__","",""
+"","0","leaves the fee undefined when neither field is sent","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/modules/payments/__tests__","",""
+"Messages (Guest manual G7) and notifications (G8).","58680","[G-MSG-01] Messages list loads (conversations or the empty state) @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Messages and notifications","",""
+"","1","returns start of day (no time component)","Unit (Jest)","2026-10-30","passed","2026-10-30","","src/utils/__tests__","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","35158","[G-PROP-10] Share and Message host are offered @regression","E2E (Detox)","2026-10-30","passed","2026-10-30","","Guest · Property details","",""
+"","0","should return nulls for missing tokens","Unit (Jest)","2026-10-30","passed","2026-10-30","","__tests__/utils","",""

@@ -1,0 +1,14 @@
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x13e8048c0; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x13320d510>; layer = <CALayer: 0x1319a6e20>>
+DEBUG	com.facebook.react.log:javascript	[expo-image-picker] `ImagePicker.MediaTypeOptions` have been deprecated. Use `ImagePicker.MediaType` or an array of `ImagePicker.MediaType` instead.
+FATAL		PFSizeGetAspectRatio produced an undefined aspect ratio from size {inf, inf}. Returning 1.000000. Use PFSizeGetAspectRatioWithDefault() to provide a value for this case.
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		Unknown URL query item (name: type, value: 1)
+ERROR		Unknown URL query item (name: mode, value: 1)
+ERROR		Unknown URL query item (name: loc, value: true)
+ERROR		Unknown URL query item (name: cap, value: true)
+ERROR		Unable to mark file provider URL (file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Containers/Shared/AppGroup/3CF473BA-B257-4421-A65D-9A68CAB468F4/File%20Provider%20Storage/photospicker/uuid=7F1190F1-1EC7-4243-ADFF-B21D63DA5EDB&code=001&library=1&type=1&mode=1&loc=true&cap=true.jpeg) as purgeable.
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel

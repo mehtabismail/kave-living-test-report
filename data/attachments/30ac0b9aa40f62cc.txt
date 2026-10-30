@@ -1,0 +1,10 @@
+ERROR		Control Center invocation analytics ended with missing begin.
+ERROR		Event handler is called Connection invalid
+FATAL		Could not read asset type descriptor "/Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AppPredictionClient.framework/../Assets.bundle/com.apple.MobileAsset.AssetTypeDescriptor.DuetExpertCenterAsset.plist": Error Domain=NSCocoaErrorDomain Code=260 "The file “com.apple.MobileAsset.AssetTypeDescriptor.DuetExpertCenterAsset.plist” couldn’t be opened because there is no such file." UserInfo={NSFilePath=/Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AppPredictionClient.framework/../Assets.bundle/com.apple.MobileAsset.AssetTypeDescriptor.DuetExpertCenterAsset.plist, NSURL=file:///Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS%2026.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AppPredictionClient.framework/../Assets.bundle/com.apple.MobileAsset.AssetTypeDescriptor.DuetExpertCenterAsset.plist, NSUnderlyingError=0x1041d3c60 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+FATAL		Unable to load Info.plist for default bundle at "/Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AppPredictionClient.framework/../Assets.bundle".
+TRACE	com.facebook.react.log:native	Manifest does not exist - creating a new one.
+		
+		(null)
+DEBUG	com.facebook.react.log:javascript	The `allowsFullscreen` prop is deprecated and will be removed in a future release. Use `fullscreenOptions` prop instead.
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'

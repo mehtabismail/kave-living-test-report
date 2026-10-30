@@ -1,0 +1,3 @@
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel

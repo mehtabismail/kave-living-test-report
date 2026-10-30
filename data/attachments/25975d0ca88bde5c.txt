@@ -1,0 +1,6 @@
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR	ClockKit:default	Creating a CLKDevice without an PDRDevice: (null)
+ERROR	ClockKit:default	device ((null)) has no material, defaulting to light aluminum
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		User passwd entry or home directory is not found
+ERROR		Failed to initialize PETEventTracker2.

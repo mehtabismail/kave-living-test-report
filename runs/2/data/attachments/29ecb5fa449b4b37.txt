@@ -1,0 +1,1 @@
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x10d14fd40; frame = (0 0; 402 874); autoresize = W+H; gestureRecognizers = <NSArray: 0x1337fad40>; animations = { UIPacingAnimationForAnimatorsKey=<CABasicAnimation: 0x17fd637a0>; position=<CASpringAnimation: 0x17fd63bc0>; }; layer = <CALayer: 0x17fdb4c60>>

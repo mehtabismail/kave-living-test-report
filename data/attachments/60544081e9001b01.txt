@@ -1,0 +1,28 @@
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x14ab68700; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x13e859b50>; layer = <CALayer: 0x1331f4300>>
+ERROR		[MADPhotosDataStoreClient][AddPersistentStoreCoordinator] Failed to create database directory at /var/mobile/Media/MediaAnalysis: Error Domain=NSCocoaErrorDomain Code=513 "You don’t have permission to save the file “MediaAnalysis” in the folder “Media”." UserInfo={NSFilePath=/var/mobile/Media/MediaAnalysis, NSURL=file:///var/mobile/Media/MediaAnalysis, NSUnderlyingError=0x1076a4240 {Error Domain=NSPOSIXErrorDomain Code=13 "Permission denied"}}
+ERROR		[MADPhotosDataStoreClient][CreateCoordinatorForLibrary] Failed to configure coordinator for photo library /Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Media
+ERROR		[MADPhotosDataStoreClient][QueryMetadata] Failed to retrieve persistent store coordinator for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Media/
+ERROR		[MADPhotosDataStoreClient][QueryMetadata] Failed to fetch database metadata for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Media/
+ERROR		[MADPhotosDataStoreClient][MigrationForLibrary] Failed to query current database version for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Media/
+ERROR		[MADSchedulerBackgroundSystemTask] Database migration incomplete for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Media/
+DEBUG	com.facebook.react.log:javascript	[expo-image-picker] `ImagePicker.MediaTypeOptions` have been deprecated. Use `ImagePicker.MediaType` or an array of `ImagePicker.MediaType` instead.
+FATAL		PFSizeGetAspectRatio produced an undefined aspect ratio from size {inf, inf}. Returning 1.000000. Use PFSizeGetAspectRatioWithDefault() to provide a value for this case.
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		[MADPhotosDataStoreClient][AddPersistentStoreCoordinator] Failed to create database directory at /var/mobile/Media/MediaAnalysis: Error Domain=NSCocoaErrorDomain Code=513 "You don’t have permission to save the file “MediaAnalysis” in the folder “Media”." UserInfo={NSFilePath=/var/mobile/Media/MediaAnalysis, NSURL=file:///var/mobile/Media/MediaAnalysis, NSUnderlyingError=0x1076a4990 {Error Domain=NSPOSIXErrorDomain Code=13 "Permission denied"}}
+ERROR		[MADPhotosDataStoreClient][CreateCoordinatorForLibrary] Failed to configure coordinator for photo library /Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Media
+ERROR		[MADPhotosDataStoreClient][MOCForLibrary] Failed to retrieve persistent store coordinator for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Media/
+ERROR		[MACDMigration] Failed to create context for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Media/
+ERROR		[MADPhotosDatabaseMigrationBackgroundSystemTask][com.apple.mediaanalysisd.photos.database.migration] Failed to expire task - Error Domain=BGSystemTaskSchedulerErrorDomain Code=4 "(null)"
+ERROR		Event handler is called Connection invalid
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		Unknown URL query item (name: type, value: 1)
+ERROR		Unknown URL query item (name: mode, value: 1)
+ERROR		Unknown URL query item (name: loc, value: true)
+ERROR		Unknown URL query item (name: cap, value: true)
+ERROR		Unable to mark file provider URL (file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Containers/Shared/AppGroup/3CF473BA-B257-4421-A65D-9A68CAB468F4/File%20Provider%20Storage/photospicker/uuid=7F1190F1-1EC7-4243-ADFF-B21D63DA5EDB&code=001&library=1&type=1&mode=1&loc=true&cap=true.jpeg) as purgeable.
+ERROR		Unknown URL query item (name: type, value: 1)
+ERROR		Unknown URL query item (name: mode, value: 1)
+ERROR		Unknown URL query item (name: loc, value: true)
+ERROR		Unknown URL query item (name: cap, value: true)
+ERROR		Unable to mark file provider URL (file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Containers/Shared/AppGroup/3CF473BA-B257-4421-A65D-9A68CAB468F4/File%20Provider%20Storage/photospicker/uuid=C64F1E9E-22FF-4D10-9195-C3739F95A27E&code=001&library=1&type=1&mode=1&loc=true&cap=true.png) as purgeable.

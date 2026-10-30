@@ -1,0 +1,6 @@
+DEBUG	com.wix.Detox:WebSocket	Action received: invoke
+DEBUG	com.wix.Detox:WebSocket	Action received: setSyncSettings
+DEBUG	com.wix.Detox:WebSocket	Action received: invoke
+DEBUG	com.wix.Detox:WebSocket	Action received: setSyncSettings
+DEBUG	com.wix.Detox:WebSocket	Action received: invoke
+DEBUG	com.wix.Detox:WebSocket	Action received: currentStatus

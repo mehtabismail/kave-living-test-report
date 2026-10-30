@@ -1,0 +1,14 @@
+ERROR		Added a logging delegate (type DACoreDAVLogger) that doesn't implement -logHandle. This will degrade performance and result in completely useless, entirely redacted logs. Please migrate to os_log.
+ERROR		Control Center invocation analytics ended with missing begin.
+ERROR		Event handler is called Connection invalid
+ERROR	ClockKit:default	Creating a CLKDevice without an PDRDevice: (null)
+ERROR	ClockKit:default	device ((null)) has no material, defaulting to light aluminum
+TRACE	com.facebook.react.log:native	Manifest does not exist - creating a new one.
+		
+		(null)
+DEBUG	com.facebook.react.log:javascript	The `allowsFullscreen` prop is deprecated and will be removed in a future release. Use `fullscreenOptions` prop instead.
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		User passwd entry or home directory is not found
+ERROR		Failed to initialize PETEventTracker2.
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'

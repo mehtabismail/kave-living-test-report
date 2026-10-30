@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":3,"items":[{"uid":"8fb3a91ba5aaf9de24cc8a92edc82b5d","name":"Product defects","statistic":{"failed":6,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":6}},{"uid":"b06476fe686c0515ed459a4c27e21c04","name":"Known app bug","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"9b893bf922c5d5988c254887de953f40","name":"Test error (threw before asserting)","statistic":{"failed":0,"broken":5,"skipped":0,"passed":0,"unknown":0,"total":5}}]}

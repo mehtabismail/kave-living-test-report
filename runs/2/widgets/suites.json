@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"b4b9a8aed4b25874c444cdbd7848958d","name":"E2E (Detox)","statistic":{"failed":7,"broken":5,"skipped":28,"passed":131,"unknown":0,"total":171}},{"uid":"21d04ce01eb31a39e8e44a6c0520333b","name":"Unit (Jest)","statistic":{"failed":0,"broken":0,"skipped":1,"passed":494,"unknown":0,"total":495}}]}

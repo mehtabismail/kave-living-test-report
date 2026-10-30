@@ -1,0 +1,8 @@
+ERROR		Control Center invocation analytics ended with missing begin.
+ERROR		Event handler is called Connection invalid
+DEBUG	com.facebook.react.log:javascript	The `allowsFullscreen` prop is deprecated and will be removed in a future release. Use `fullscreenOptions` prop instead.
+ERROR	ClockKit:default	Creating a CLKDevice without an PDRDevice: (null)
+ERROR	ClockKit:default	device ((null)) has no material, defaulting to light aluminum
+ERROR		Event handler is called Connection invalid
+ERROR		User passwd entry or home directory is not found
+ERROR		Failed to initialize PETEventTracker2.
