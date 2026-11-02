@@ -1,0 +1,1 @@
+ERROR		MTLCompilerService: XPC_ERROR_CONNECTION_INVALID - Connection to host app 'iconservicesagent_34272' is invalid, could not establish XPC connection

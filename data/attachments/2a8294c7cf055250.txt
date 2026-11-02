@@ -1,0 +1,11 @@
+ERROR		Photo analysis client XPC connection interrupted
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1245a8000; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x138ceb3b0>; layer = <CALayer: 0x1393ed560>>
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1245a8380; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x1308da310>; layer = <CALayer: 0x1393f0ed0>>
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1245a88c0; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x138ce9260>; layer = <CALayer: 0x138bf35d0>>
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1245a8fc0; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x13a644190>; layer = <CALayer: 0x1379be8e0>>
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1245a8e00; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x13a644060>; layer = <CALayer: 0x1393ec720>>
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1245a8540; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x13a6463c0>; layer = <CALayer: 0x1244d8360>>
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel

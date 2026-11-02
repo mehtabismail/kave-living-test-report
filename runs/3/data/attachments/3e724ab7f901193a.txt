@@ -1,0 +1,1 @@
+ERROR	AudioDataAnalysisFramework(ADAF):ADAM	feature mandatory flag is not set, default to mandatory

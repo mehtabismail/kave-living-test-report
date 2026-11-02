@@ -1,0 +1,2 @@
+ERROR		Event handler is called Connection invalid
+ERROR		MTLCompilerService: XPC_ERROR_CONNECTION_INVALID - Connection to host app 'iconservicesagent_28920' is invalid, could not establish XPC connection

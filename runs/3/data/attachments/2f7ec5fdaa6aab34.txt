@@ -1,0 +1,2 @@
+DEBUG	com.facebook.react.log:javascript	Usage of "messaging().registerDeviceForRemoteMessages()" is not required. You only need to register if auto-registration is disabled in your 'firebase.json' configuration file via the 'messaging_ios_auto_register_for_remote_messages' property.
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel

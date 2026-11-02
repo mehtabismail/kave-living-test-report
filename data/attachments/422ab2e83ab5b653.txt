@@ -1,0 +1,1 @@
+ERROR		Photo analysis client XPC connection interrupted
