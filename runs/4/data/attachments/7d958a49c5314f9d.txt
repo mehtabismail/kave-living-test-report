@@ -1,0 +1,5 @@
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'
+ERROR	ClockKit:default	Creating a CLKDevice without an PDRDevice: (null)
+ERROR	ClockKit:default	device ((null)) has no material, defaulting to light aluminum
+ERROR		User passwd entry or home directory is not found
+ERROR		Failed to initialize PETEventTracker2.

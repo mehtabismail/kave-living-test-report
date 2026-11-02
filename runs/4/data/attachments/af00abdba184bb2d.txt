@@ -1,0 +1,4 @@
+ERROR		Event handler is called Connection invalid
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x30d02e140; frame = (0 0; 402 874); autoresize = W+H; gestureRecognizers = <NSArray: 0x166e138f0>; animations = { UIPacingAnimationForAnimatorsKey=<CABasicAnimation: 0x167edba00>; position=<CASpringAnimation: 0x167edb140>; }; layer = <CALayer: 0x167d30b40>>
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x30d1b9500; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x11be435d0>; layer = <CALayer: 0x30d143420>>

@@ -1,0 +1,4 @@
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+ERROR		Added a logging delegate (type DACoreDAVLogger) that doesn't implement -logHandle. This will degrade performance and result in completely useless, entirely redacted logs. Please migrate to os_log.
+ERROR		Added a logging delegate (type MobileCalDAViCloudDaemonAccount) that doesn't implement -logHandle. This will degrade performance and result in completely useless, entirely redacted logs. Please migrate to os_log.
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x16a70f9c0; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x1256c3e90>; layer = <CALayer: 0x16a75a8b0>>
