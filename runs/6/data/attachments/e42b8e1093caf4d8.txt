@@ -1,0 +1,3 @@
+DEBUG	com.facebook.react.log:javascript	Usage of "messaging().registerDeviceForRemoteMessages()" is not required. You only need to register if auto-registration is disabled in your 'firebase.json' configuration file via the 'messaging_ios_auto_register_for_remote_messages' property.
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1677f2a00; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x17a948680>; layer = <CALayer: 0x17a95cde0>>

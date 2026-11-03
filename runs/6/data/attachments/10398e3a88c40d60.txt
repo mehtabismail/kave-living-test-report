@@ -1,0 +1,16 @@
+DEBUG	com.facebook.react.log:javascript	Usage of "messaging().registerDeviceForRemoteMessages()" is not required. You only need to register if auto-registration is disabled in your 'firebase.json' configuration file via the 'messaging_ios_auto_register_for_remote_messages' property.
+ERROR		[MADPhotosDataStoreClient][AddPersistentStoreCoordinator] Failed to create database directory at /var/mobile/Media/MediaAnalysis: Error Domain=NSCocoaErrorDomain Code=513 "You don’t have permission to save the file “MediaAnalysis” in the folder “Media”." UserInfo={NSFilePath=/var/mobile/Media/MediaAnalysis, NSURL=file:///var/mobile/Media/MediaAnalysis, NSUnderlyingError=0x1099a9470 {Error Domain=NSPOSIXErrorDomain Code=13 "Permission denied"}}
+ERROR		[MADPhotosDataStoreClient][CreateCoordinatorForLibrary] Failed to configure coordinator for photo library /Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Media
+ERROR		[MADPhotosDataStoreClient][MOCForLibrary] Failed to retrieve persistent store coordinator for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Media/
+ERROR		[MACDMigration] Failed to create context for photo library file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/53BD1CA0-1D03-4D42-8FE9-6E12CF146955/data/Media/
+ERROR		[MADPhotosDatabaseMigrationBackgroundSystemTask][com.apple.mediaanalysisd.photos.database.migration] Failed to expire task - Error Domain=BGSystemTaskSchedulerErrorDomain Code=4 "(null)"
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1094f81c0; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x13d7b6790>; layer = <CALayer: 0x12e395980>>
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1094f8700; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x13d7b7140>; layer = <CALayer: 0x13d8b05d0>>
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1094f81c0; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x13d7b7ca0>; layer = <CALayer: 0x133bf9050>>
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1094f8000; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x13d7b52d0>; layer = <CALayer: 0x13d8c4c90>>
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1094f9180; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x13d7b6830>; layer = <CALayer: 0x1335d2250>>
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1094f8e00; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x13d7b6170>; layer = <CALayer: 0x13d8b2790>>
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel

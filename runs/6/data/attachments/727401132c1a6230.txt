@@ -1,0 +1,3 @@
+ERROR		Control Center invocation analytics ended with missing begin.
+ERROR		Event handler is called Connection invalid
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
