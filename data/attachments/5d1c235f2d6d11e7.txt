@@ -1,2 +1,0 @@
-ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'
-DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x178b3ca80; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x317a20b00>; layer = <CALayer: 0x317ada0a0>>

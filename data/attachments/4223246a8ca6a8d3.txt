@@ -1,2 +1,0 @@
-DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x30d02f640; frame = (0 0; 0 0); autoresize = W+H; gestureRecognizers = <NSArray: 0x166e12490>; layer = <CALayer: 0x1234cdc80>>
-ERROR		MTLCompilerService: XPC_ERROR_CONNECTION_INVALID - Connection to host app 'iconservicesagent_3679' is invalid, could not establish XPC connection

@@ -1,2 +1,0 @@
-ERROR		Event handler is called Connection invalid
-DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x46f6a6300; frame = (0 0; 440 956); autoresize = W+H; gestureRecognizers = <NSArray: 0x46cb90570>; animations = { UIPacingAnimationForAnimatorsKey=<CABasicAnimation: 0x46cace0e0>; position=<CASpringAnimation: 0x46cacca00>; }; layer = <CALayer: 0x46c8fe790>>

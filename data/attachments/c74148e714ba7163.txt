@@ -1,2 +1,0 @@
-ERROR		User passwd entry or home directory is not found
-ERROR		Failed to initialize PETEventTracker2.

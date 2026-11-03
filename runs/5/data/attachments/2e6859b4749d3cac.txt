@@ -1,0 +1,3 @@
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x3112481c0; frame = (0 0; 440 956); autoresize = W+H; gestureRecognizers = <NSArray: 0x303c92970>; animations = { UIPacingAnimationForAnimatorsKey=<CABasicAnimation: 0x303cfb7c0>; position=<CASpringAnimation: 0x303cfb860>; }; layer = <CALayer: 0x172df1e30>>
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel

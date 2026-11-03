@@ -1,0 +1,3 @@
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		SKAdNetwork: Error while updating conversion value: Error Domain=SKANErrorDomain Code=10 "(null)"
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
