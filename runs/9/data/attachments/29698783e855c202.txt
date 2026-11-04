@@ -1,0 +1,1 @@
+FATAL		This process does not have the com.apple.companionappd.connect.allow:=TRUE entitlement. AppConduit interfaces will all return errors
