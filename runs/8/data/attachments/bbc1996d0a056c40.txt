@@ -1,0 +1,8 @@
+TRACE	com.facebook.react.log:native	Manifest does not exist - creating a new one.
+		
+		(null)
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		Event handler is called Connection invalid
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'
+ERROR		Event handler is called Connection invalid
+ERROR		bag load The operation couldn’t be completed. (PARErrorDomain error 1.)

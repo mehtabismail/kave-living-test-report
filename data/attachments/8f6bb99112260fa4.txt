@@ -1,4 +1,0 @@
-ERROR	com.wix.Detox:DetoxManager	Web socket failed to connect with error: Could not connect to the server.
-DEBUG	com.wix.Detox:WebSocket	Action received: waitForActive
-DEBUG	com.wix.Detox:WebSocket	Action received: setSyncSettings
-DEBUG	com.wix.Detox:WebSocket	Action received: invoke

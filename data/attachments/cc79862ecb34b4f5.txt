@@ -1,0 +1,4 @@
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+ERROR		User passwd entry or home directory is not found
+ERROR		Failed to initialize PETEventTracker2.
+DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x17705abc0; frame = (0 0; 402 874); autoresize = W+H; gestureRecognizers = <NSArray: 0x1799f9040>; animations = { UIPacingAnimationForAnimatorsKey=<CABasicAnimation: 0x177030b20>; position=<CASpringAnimation: 0x177030d60>; }; layer = <CALayer: 0x1798d5890>>

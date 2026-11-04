@@ -1,5 +1,0 @@
-ERROR	ClockKit:default	Creating a CLKDevice without an PDRDevice: (null)
-ERROR	ClockKit:default	device ((null)) has no material, defaulting to light aluminum
-TRACE	com.facebook.react.log:native	Manifest does not exist - creating a new one.
-		
-		(null)

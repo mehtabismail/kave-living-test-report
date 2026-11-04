@@ -1,3 +1,0 @@
-ERROR		fopen failed for data file: errno = 2 (No such file or directory)
-ERROR		Event handler is called Connection invalid
-DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x168f32f40; frame = (0 0; 440 956); autoresize = W+H; gestureRecognizers = <NSArray: 0x168f548c0>; animations = { UIPacingAnimationForAnimatorsKey=<CABasicAnimation: 0x168f20cc0>; position=<CASpringAnimation: 0x168f20d00>; }; layer = <CALayer: 0x168f8ea60>>

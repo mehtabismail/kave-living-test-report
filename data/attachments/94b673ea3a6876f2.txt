@@ -1,2 +1,0 @@
-ERROR	ClockKit:default	Creating a CLKDevice without an PDRDevice: (null)
-ERROR	ClockKit:default	device ((null)) has no material, defaulting to light aluminum

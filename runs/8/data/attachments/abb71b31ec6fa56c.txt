@@ -1,0 +1,3 @@
+ERROR		Event handler is called Connection invalid
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel

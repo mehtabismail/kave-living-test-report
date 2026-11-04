@@ -1,1 +1,0 @@
-ERROR		MTLCompilerService: XPC_ERROR_CONNECTION_INVALID - Connection to host app 'KAVE_78082' is invalid, could not establish XPC connection

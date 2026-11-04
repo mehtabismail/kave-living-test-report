@@ -1,1 +1,1 @@
-{"reportName":"KAVE Living Test Report","testRuns":[],"statistic":{"failed":0,"broken":4,"skipped":32,"passed":637,"unknown":0,"total":673},"time":{"start":1793685754706,"stop":1793702697400,"duration":16942694,"minDuration":0,"maxDuration":2322201,"sumDuration":10023202}}
+{"reportName":"KAVE Living Test Report","testRuns":[],"statistic":{"failed":0,"broken":0,"skipped":29,"passed":643,"unknown":0,"total":672},"time":{"start":1793708746563,"stop":1793773322274,"duration":64575711,"minDuration":0,"maxDuration":562461,"sumDuration":8941470}}

@@ -1,2 +1,0 @@
-ERROR		fopen failed for data file: errno = 2 (No such file or directory)
-DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x1770e3480; frame = (0 0; 402 874); autoresize = W+H; gestureRecognizers = <NSArray: 0x123bcfd30>; animations = { UIPacingAnimationForAnimatorsKey=<CABasicAnimation: 0x125afd940>; position=<CASpringAnimation: 0x119439f40>; }; layer = <CALayer: 0x1770ecb10>>

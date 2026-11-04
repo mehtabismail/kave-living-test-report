@@ -1,3 +1,0 @@
-ERROR	AudioDataAnalysisFramework(ADAF):ADAM	feature mandatory flag is not set, default to mandatory
-ERROR		MTLCompilerService: XPC_ERROR_CONNECTION_INVALID - Connection to host app 'iconservicesagent_55985' is invalid, could not establish XPC connection
-DEBUG	com.facebook.react.log:native	[GESTURE HANDLER] Initialize gesture handler for view <UIView: 0x10cd02d80; frame = (0 0; 440 956); autoresize = W+H; gestureRecognizers = <NSArray: 0x11f654900>; animations = { UIPacingAnimationForAnimatorsKey=<CABasicAnimation: 0x474bc16a0>; position=<CASpringAnimation: 0x474bc3160>; }; layer = <CALayer: 0x474a5a190>>
