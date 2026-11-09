@@ -1,0 +1,40 @@
+FATAL		Failed to get cache main folder: path for application cache was not found (errno = 2, count = 1, len = 25, path = /var/empty/Library/Caches)
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+ERROR		[Text|Threshold] Failed to create ANE context
+ERROR		Failed to prewarm text embedding calibration
+ERROR		MADServiceTextPrewarmingTask failed (Error Domain=NSOSStatusErrorDomain Code=-50 "Failed to prewarm text embedding calibration" UserInfo={NSLocalizedDescription=Failed to prewarm text embedding calibration})
+ERROR		[MADService] Text pre-warming request failed [ID: 1] (Error Domain=NSOSStatusErrorDomain Code=-50 "Failed to prewarm text embedding calibration" UserInfo={NSLocalizedDescription=Failed to prewarm text embedding calibration})
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+ERROR	ClockKit:default	Creating a CLKDevice without an PDRDevice: (null)
+ERROR	ClockKit:default	device ((null)) has no material, defaulting to light aluminum
+ERROR		Failed to read descriptor data at path:file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/E77F7933-C699-4AF9-80CF-4E8432D0C91D/data/Library/Application%20Support/PRBPosterExtensionDataStore/61/Extensions/com.apple.PhotosUIPrivate.PhotosPosterProvider/staticdescriptors/AD4DEB40-0A53-4AF6-89E7-11BEB6D8B9C5/versions/0/contents/DescriptorModel.plist error:Error Domain=NSCocoaErrorDomain Code=260 "The file “DescriptorModel.plist” couldn’t be opened because there is no such file." UserInfo={NSFilePath=/Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/E77F7933-C699-4AF9-80CF-4E8432D0C91D/data/Library/Application Support/PRBPosterExtensionDataStore/61/Extensions/com.apple.PhotosUIPrivate.PhotosPosterProvider/staticdescriptors/AD4DEB40-0A53-4AF6-89E7-11BEB6D8B9C5/versions/0/contents/DescriptorModel.plist, NSURL=file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/E77F7933-C699-4AF9-80CF-4E8432D0C91D/data/Library/Application%20Support/PRBPosterExtensionDataStore/61/Extensions/com.apple.Ph
+ERROR	ClockKit:default	Creating a CLKDevice without an PDRDevice: (null)
+ERROR	ClockKit:default	device ((null)) has no material, defaulting to light aluminum
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+ERROR	ClockKit:default	Creating a CLKDevice without an PDRDevice: (null)
+ERROR	ClockKit:default	device ((null)) has no material, defaulting to light aluminum
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+ERROR		updateAdditionalLexicons  LM model is not valid yet
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		Failed to read descriptor data at path:file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/E77F7933-C699-4AF9-80CF-4E8432D0C91D/data/Library/Application%20Support/PRBPosterExtensionDataStore/61/Extensions/com.apple.PhotosUIPrivate.PhotosPosterProvider/staticdescriptors/DA382472-A48A-49C1-A5E1-6870C9E0208F/versions/0/contents/DescriptorModel.plist error:Error Domain=NSCocoaErrorDomain Code=260 "The file “DescriptorModel.plist” couldn’t be opened because there is no such file." UserInfo={NSFilePath=/Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/E77F7933-C699-4AF9-80CF-4E8432D0C91D/data/Library/Application Support/PRBPosterExtensionDataStore/61/Extensions/com.apple.PhotosUIPrivate.PhotosPosterProvider/staticdescriptors/DA382472-A48A-49C1-A5E1-6870C9E0208F/versions/0/contents/DescriptorModel.plist, NSURL=file:///Users/muhammadjahanzaib/Library/Developer/CoreSimulator/Devices/E77F7933-C699-4AF9-80CF-4E8432D0C91D/data/Library/Application%20Support/PRBPosterExtensionDataStore/61/Extensions/com.apple.Ph
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		updateAdditionalLexicons  LM model is not valid yet
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		+[HCHuffmanCoder coderMatchingName:locale:]  Couldn't find a Huffman coder for locale: 'en_US'
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+DEBUG	com.facebook.react.log:javascript	Usage of "messaging().registerDeviceForRemoteMessages()" is not required. You only need to register if auto-registration is disabled in your 'firebase.json' configuration file via the 'messaging_ios_auto_register_for_remote_messages' property.
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR	Unity2025Poster:Common	no renderer to update
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR	Unity2025Poster:Common	no renderer to update
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
+ERROR	PridePoster:Common	no renderer to update
+FATAL		IOSurfaceQueryTransactionList got non-success return from kernel
