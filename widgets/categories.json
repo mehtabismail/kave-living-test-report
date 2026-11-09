@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":1,"items":[{"uid":"9b893bf922c5d5988c254887de953f40","name":"Test error (threw before asserting)","statistic":{"failed":0,"broken":47,"skipped":0,"passed":0,"unknown":0,"total":47}}]}

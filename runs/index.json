@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-04T10:04:29.205Z",
-  "runCount": 9,
+  "generatedAt": "2026-11-09T22:21:19.175Z",
+  "runCount": 10,
   "runs": [
+    {
+      "run": 11,
+      "url": "11/",
+      "buildName": "#11 (dev)",
+      "buildUrl": "https://github.com/zaptatech/Liveup-Mobile/actions/runs/42710050894",
+      "runAt": "2026-11-09T22:18:21Z",
+      "branch": "dev",
+      "commit": "8d1162e",
+      "trigger": "push",
+      "included": "Unit (Jest) + E2E (Detox, iOS)",
+      "total": 219,
+      "passed": 144,
+      "failed": 0,
+      "broken": 47,
+      "skipped": 28,
+      "e2eTests": "172",
+      "e2eFailed": "0",
+      "e2eUploadedAt": "2026-11-04T06:18:23Z",
+      "e2eStatus": ""
+    },
     {
       "run": 10,
       "url": "10/",
