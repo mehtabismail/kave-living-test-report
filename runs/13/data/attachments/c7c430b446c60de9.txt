@@ -1,0 +1,2 @@
+ERROR		Added a logging delegate (type DACoreDAVLogger) that doesn't implement -logHandle. This will degrade performance and result in completely useless, entirely redacted logs. Please migrate to os_log.
+ERROR		Added a logging delegate (type MobileCalDAViCloudDaemonAccount) that doesn't implement -logHandle. This will degrade performance and result in completely useless, entirely redacted logs. Please migrate to os_log.
