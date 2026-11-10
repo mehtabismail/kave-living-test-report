@@ -1,0 +1,2 @@
+DEBUG	com.wix.Detox:WebSocket	Action received: deliverPayload
+DEBUG	com.wix.Detox:WebSocket	Action received: invoke
