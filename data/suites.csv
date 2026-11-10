@@ -1,398 +1,128 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Host reviews (Host manual ch. 14).
-
-DIFFERS: mobile has no host reviews dashboard (overall score, category
-averages, sort). Profile → Reviews lists the reviews written about you, so
-H-REV-01 checks that list and H-REV-02 is not on mobile (COVERAGE.md).","136600","[H-REV-01] Profile → Reviews lists the reviews about the host (or the empty state) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Reviews","",""
-"","","src/utils/__tests__/phone-no.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","7676","[H-AST-04] Contact Support opens the support center @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Assistant","Host · Communication and services","",""
-"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","12929","[G-SET-10] Support & Legal: FAQ and Terms open with content @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","2","[H-COH-02] Invite a co-host and assign a property @mutating — SKIPPED: sends a real invitation email; needs the user's go-ahead for the +cohost alias (follow-up)","E2E (Detox)","2026-11-03","skipped","2026-11-03","Co-hosts","Host · Communication and services","",""
-"Discover properties (Guest manual G2.1, G2.2).
-
-Mobile has two result screens: /search-results (from the search sheet; has
-the filter sheet, no sort, no count) and the category list opened from an
-Explore section's arrow (has sort and the ""{count} homes"" label).","47917","[G-DISC-06] Filter sheet: type, beds, rating, amenity → results @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
-"Host calendar (Host manual ch. 8).
-
-Works on an Active listing that no booking test uses (never the instant
-listing, whose prices the guest specs assert in parallel), on a day far in
-the future. Every price / block change is put back in the same test.","1049","[H-CAL-07] AI suggestion panel shows for the listing @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
-"Card validation and declined payment (Guest manual G3, payment rules).
-
-The validation tests stop on the add-card sheet, so nothing is charged.
-G-BOOK-17 pays with the decline test card; a declined payment leaves no
-confirmed booking, which the test checks through the API.","43148","[G-BOOK-12] A 15-digit card number and an empty CVV are rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Payment","",""
-"","","__tests__/utils/image-upload-prep.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host bookings (Host manual ch. 9).
-
-Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
-X-01, X-02, X-04 because they need a guest booking made in the same run.","20868","[H-BKG-02] Search by booking code narrows the list to that booking @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Bookings","",""
-"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
-one account and into the other inside the app, as a person sharing a phone
-would. Every booking made here is cancelled; every calendar change restored.","288399","[X-04] Host cancels an instant booking → guest sees it Cancelled @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Cross-role","",""
-"Public content and the guest assistant (Guest manual G11).","17960","[G-PUB-02] The assistant answers a question (reply text not asserted) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Public pages and assistant","",""
-"Host settings (Host manual ch. 16). Shares the guest settings suite; the
-host-only cases (payout accounts, notification categories) are below it.
-
-H-SET-05 (add a payout account) is never automated: it would register bank
-details on the shared QA host and must not touch the default account.","14478","[H-SET-09] Support & Legal: FAQ and Terms open with content @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
 "Wishlist (Guest manual G3).","8170","[G-WISH-03] Removing it drops it from the list and lowers the count @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Wishlist","",""
-"Property details (Guest manual G2.3).
-
-G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","115531","[G-PROP-08] A range over booked nights is rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
-"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
-one account and into the other inside the app, as a person sharing a phone
-would. Every booking made here is cancelled; every calendar change restored.","414036","[X-05] Messaging round trip: guest → host → guest @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Cross-role","",""
-"Card validation and declined payment (Guest manual G3, payment rules).
-
-The validation tests stop on the add-card sheet, so nothing is charged.
-G-BOOK-17 pays with the decline test card; a declined payment leaves no
-confirmed booking, which the test checks through the API.","22347","[G-BOOK-11] A single-word cardholder name is rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Payment","",""
-"Host settings (Host manual ch. 16). Shares the guest settings suite; the
-host-only cases (payout accounts, notification categories) are below it.
-
-H-SET-05 (add a payout account) is never automated: it would register bank
-details on the shared QA host and must not touch the default account.","90781","[H-SET-03] Login & security validates without ever submitting a valid change @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","20613","[H-AST-02] A typed question gets a reply @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Assistant","Host · Communication and services","",""
-"Add-property wizard (Host manual ch. 3), 14 steps.
-
-The tests in ""full wizard"" run in order and build one listing together: it
-is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","6641","[H-ADD-08] Step 8: amenities can be selected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"Host dashboard (Host manual ch. 2).","61123","[H-DASH-03] Earnings (revenue) period menu switches every option @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
-"Host settings (Host manual ch. 16). Shares the guest settings suite; the
-host-only cases (payout accounts, notification categories) are below it.
-
-H-SET-05 (add a payout account) is never automated: it would register bank
-details on the shared QA host and must not touch the default account.","56947","[H-SET-02] Address (apartment / suite) saves and is restored @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
-"Card validation and declined payment (Guest manual G3, payment rules).
-
-The validation tests stop on the add-card sheet, so nothing is charged.
-G-BOOK-17 pays with the decline test card; a declined payment leaves no
-confirmed booking, which the test checks through the API.","213808","[G-BOOK-10] A past expiry date is rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Payment","",""
-"Discover properties (Guest manual G2.1, G2.2).
-
-Mobile has two result screens: /search-results (from the search sheet; has
-the filter sheet, no sort, no count) and the category list opened from an
-Explore section's arrow (has sort and the ""{count} homes"" label).","64948","[G-DISC-05] Distance sort with location allowed, then denied @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
-"","","src/utils/__tests__/pdf-file-naming.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","226190","[G-SET-01] Every settings entry opens @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
-"Listings management (Host manual ch. 6).
-
-Not on mobile: ""My listings / Co-hosting"" tabs (H-LIST-01), status filter
-and date picker (part of H-LIST-02). See e2e/COVERAGE.md.","60227","[H-LIST-06] Scrolling down loads the next page until the oldest listing shows @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Listings management","",""
-"","","src/modules/trips/__tests__/tripStatusTab.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Instant booking and checkout (Guest manual G3).
-
-Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
-G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
-Stays and the cancellation wizard have their own specs.","39931","[G-BOOK-09] A valid promo code lowers the total; removing it restores the total @regression @data-dependent","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
-"Support center (Guest manual G9).
-
-G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
-app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","84223","[G-SUP-01] Support center lists tickets per filter; search works @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Support","",""
-"Host financials (Host manual ch. 10): Overview and Transactions.
-
-H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
-(the Overview's activity rows only show stay, dates and type).","50951","[H-FIN-04] Every Transactions tab loads; search, status filter and date filter work @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Financials","",""
-"Add-property wizard (Host manual ch. 3), 14 steps.
-
-The tests in ""full wizard"" run in order and build one listing together: it
-is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","7356","[H-ADD-05] Step 7: pick an access method @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"Host settings (Host manual ch. 16). Shares the guest settings suite; the
-host-only cases (payout accounts, notification categories) are below it.
-
-H-SET-05 (add a payout account) is never automated: it would register bank
-details on the shared QA host and must not touch the default account.","146395","[H-SET-07] Switching currency shows it on prices and the SAR charge note at checkout; restored @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
-"","","src/modules/host/__tests__/calendarPricing.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Support center (Guest manual G9).
-
-G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
-app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","8164","[G-SUP-02] A new request cannot be submitted until title, category and description are filled @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Support","",""
-"Property details (Guest manual G2.3).
-
-G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","33085","[G-PROP-03] Property rules open @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
-"","","src/system/currency/__tests__/format.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host dashboard (Host manual ch. 2).","58311","[H-DASH-05] Recent bookings: search narrows the list; View All opens Bookings @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
-"Guest authentication (Guest manual G1).
-
-G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
-specs, where the property and date-picker screen objects are.","86505","[G-AUTH-10] Guest becomes a host (no listings → add-listing) and switches back @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
-"Add-property wizard (Host manual ch. 3), 14 steps.
-
-The tests in ""full wizard"" run in order and build one listing together: it
-is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","5854","[H-ADD-04] Step 4: choose Request booking @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"Support center (Guest manual G9).
-
-G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
-app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","19582","[G-SUP-03] Create a ticket → success → it is listed as Open @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Support","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","0","[H-SRV-05] Service payment row in Payments @mutating — SKIPPED: depends on H-SRV-03","E2E (Detox)","2026-11-03","skipped","2026-11-03","Service requests","Host · Communication and services","",""
-"Stays (Guest manual G5) and cancellation (G6).
-
-beforeAll books a fresh instant stay through the app; the cancellation
-tests then cancel that same stay through the wizard, which is also this
-spec's cleanup (afterAll cancels it through the API if a test failed first).","16988","[G-STAY-02] Search by property name shows this run's booking @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Stays","Guest · Stays and cancellation","",""
-"Instant booking and checkout (Guest manual G3).
-
-Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
-G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
-Stays and the cancellation wizard have their own specs.","23759","[G-BOOK-02] Change dates in the summary updates the nights and the total @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
 "Add-property wizard (Host manual ch. 3), 14 steps.
 
 The tests in ""full wizard"" run in order and build one listing together: it
 is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
 kave-ops, which is out of scope). Each test covers one step's rules.","34502","[H-ADD-03] Step 3: address fields are required @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"Stays (Guest manual G5) and cancellation (G6).
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
 
-beforeAll books a fresh instant stay through the app; the cancellation
-tests then cancel that same stay through the wizard, which is also this
-spec's cleanup (afterAll cancels it through the API if a test failed first).","15446","[G-STAY-06] An empty tab shows ""No stays"" with Explore properties, which opens discovery @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Stays","Guest · Stays and cancellation","",""
-"","","src/modules/auth/__tests__/tokenRefresh.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Add-property wizard (Host manual ch. 3), 14 steps.
-
-The tests in ""full wizard"" run in order and build one listing together: it
-is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","32894","[H-ADD-13] Step 13: emergency exit info is capped at 250 characters @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"","","src/modules/host/__tests__/hostBookingStatus.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"","","src/utils/__tests__/booking-price-breakdown.calendar.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","18396","[H-MSG-02] A text sent in a conversation shows in the thread @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Messages","Host · Communication and services","",""
-"Let KAVE create your listing (Host manual ch. 4).
-
-The ""List with KAVE"" banner on step 1 only shows while the backend says the
-host is eligible, so H-LRQ-01…03 depend on QA data.","137970","[H-LRQ-04] My requests → Listing request: every status tab loads @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · List with KAVE","",""
-"Guest authentication (Guest manual G1).
-
-G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
-specs, where the property and date-picker screen objects are.","55426","[G-AUTH-06] Log out returns to signed-out state; protected screens ask to sign in @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
-"","","src/utils/__tests__/continuous-stay.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Instant booking and checkout (Guest manual G3).
-
-Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
-G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
-Stays and the cancellation wizard have their own specs.","0","[G-BOOK-05] Services Back keeps dates and guests @regression — SKIPPED: the instant QA listing offers no add-on services","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Instant booking","",""
-"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
-one account and into the other inside the app, as a person sharing a phone
-would. Every booking made here is cancelled; every calendar change restored.","1","[X-01] Request → host approves → guest pays → host sees Confirmed @smoke @mutating — SKIPPED: E2E_REQUEST_PROPERTY_ID is empty (the E2E REQUEST listing is not approved yet)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Cross-role","",""
-"Add-property wizard (Host manual ch. 3), 14 steps.
-
-The tests in ""full wizard"" run in order and build one listing together: it
-is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","6760","[H-ADD-12] Step 12: a discount can be selected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"Host calendar (Host manual ch. 8).
-
-Works on an Active listing that no booking test uses (never the instant
-listing, whose prices the guest specs assert in parallel), on a day far in
-the future. Every price / block change is put back in the same test.","50108","[H-CAL-02] Base price for the selection: original + 1, then restore @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
-"Host calendar (Host manual ch. 8).
-
-Works on an Active listing that no booking test uses (never the instant
-listing, whose prices the guest specs assert in parallel), on a day far in
-the future. Every price / block change is put back in the same test.","103482","[H-CAL-01] Pick a property and move between months @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
-"Guest authentication (Guest manual G1).
-
-G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
-specs, where the property and date-picker screen objects are.","10045","[G-AUTH-03] Empty password is rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","15502","[H-COH-01] Invite with an invalid email is rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Co-hosts","Host · Communication and services","",""
-"","","src/components/forms/__tests__/phone-input.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"","","__tests__/config/environment-override.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","0","[H-SRV-04] Cancel the new request @mutating — SKIPPED: depends on H-SRV-03","E2E (Detox)","2026-11-03","skipped","2026-11-03","Service requests","Host · Communication and services","",""
-"Guest authentication (Guest manual G1).
-
-G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
-specs, where the property and date-picker screen objects are.","58879","[G-AUTH-08] Forgot password validates the email, then reaches the OTP step @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
-"Add-property wizard (Host manual ch. 3), 14 steps.
-
-The tests in ""full wizard"" run in order and build one listing together: it
-is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","117533","[H-ADD-06] Step 5: at least 3 photos; the first is the cover @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"Host dashboard (Host manual ch. 2).","83670","[H-DASH-04b] Reservations ""Last 2 years"" keeps the dashboard loaded @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
-"Discover properties (Guest manual G2.1, G2.2).
-
-Mobile has two result screens: /search-results (from the search sheet; has
-the filter sheet, no sort, no count) and the category list opened from an
-Explore section's arrow (has sort and the ""{count} homes"" label).","61774","[G-DISC-01] Explore loads the search entry and curated sections @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
-"Discover properties (Guest manual G2.1, G2.2).
-
-Mobile has two result screens: /search-results (from the search sheet; has
-the filter sheet, no sort, no count) and the category list opened from an
-Explore section's arrow (has sort and the ""{count} homes"" label).","42602","[G-DISC-03] A nonsense destination shows ""No properties found"" @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
-"Let KAVE create your listing (Host manual ch. 4).
-
-The ""List with KAVE"" banner on step 1 only shows while the backend says the
-host is eligible, so H-LRQ-01…03 depend on QA data.","0","[H-LRQ-02] Sending with an empty or invalid phone is rejected @data-dependent — SKIPPED: the List with KAVE banner is not offered to the host in QA (not eligible, or no active banner)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · List with KAVE","",""
-"Messages (Guest manual G7) and notifications (G8).","0","[G-MSG-04] Over-limit attachment is rejected @regression — SKIPPED: chat attachments use the system photo picker, not mocked in E2E builds yet","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Messages and notifications","",""
-"Host dashboard (Host manual ch. 2).","51953","[H-DASH-04] Reservations period menu switches between 6 and 12 months @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
-"Add-property wizard (Host manual ch. 3), 14 steps.
-
-The tests in ""full wizard"" run in order and build one listing together: it
-is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","15602","[H-ADD-10] Step 10: weekday price breakdown — You earned = base − commission @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"Stays (Guest manual G5) and cancellation (G6).
-
-beforeAll books a fresh instant stay through the app; the cancellation
-tests then cancel that same stay through the wizard, which is also this
-spec's cleanup (afterAll cancels it through the API if a test failed first).","11747","[G-CANC-02] Cancelling needs the policy acknowledged first @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Cancellation","Guest · Stays and cancellation","",""
-"Messages (Guest manual G7) and notifications (G8).","0","[G-MSG-05] Delete a chat created by this run @mutating — SKIPPED: no conversation created by this run alone (guest ↔ host chat is shared)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Messages and notifications","",""
-"","","src/modules/trips/__tests__/tripPriceBreakdown.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Add-property wizard (Host manual ch. 3), 14 steps.
-
-The tests in ""full wizard"" run in order and build one listing together: it
-is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","18660","[H-ADD-09] Step 9: check-in and check-out times @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"Instant booking and checkout (Guest manual G3).
-
-Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
-G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
-Stays and the cancellation wizard have their own specs.","108815","[G-AUTH-11] Signed out: Reserve asks to sign in and the booking resumes after login @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
-"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","27098","[G-SET-08] Identity verification cannot be submitted without the ID images @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","44471","[H-SET-08] Identity verification cannot be submitted without the ID images @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
 "Host financials (Host manual ch. 10): Overview and Transactions.
 
 H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
 (the Overview's activity rows only show stay, dates and type).","10455","[H-FIN-03] View all payments opens Transactions @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Financials","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","1","[G-SET-09] Identity verification full submit @mutating — SKIPPED: would permanently change the shared QA account's verification status","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Settings","",""
+"Card validation and declined payment (Guest manual G3, payment rules).
+
+The validation tests stop on the add-card sheet, so nothing is charged.
+G-BOOK-17 pays with the decline test card; a declined payment leaves no
+confirmed booking, which the test checks through the API.","22347","[G-BOOK-11] A single-word cardholder name is rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Payment","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","12929","[G-SET-10] Support & Legal: FAQ and Terms open with content @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","1","[H-COH-03] Manage permissions @mutating — SKIPPED: depends on H-COH-02","E2E (Detox)","2026-11-03","skipped","2026-11-03","Co-hosts","Host · Communication and services","",""
+"","","__tests__/hooks/use-countdown.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/modules/host/__tests__/calendarPricing.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","__tests__/services/secure-storage.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/modules/payments/__tests__/paymentRecord.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Host dashboard (Host manual ch. 2).","51953","[H-DASH-04] Reservations period menu switches between 6 and 12 months @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
+"Card validation and declined payment (Guest manual G3, payment rules).
+
+The validation tests stop on the add-card sheet, so nothing is charged.
+G-BOOK-17 pays with the decline test card; a declined payment leaves no
+confirmed booking, which the test checks through the API.","213808","[G-BOOK-10] A past expiry date is rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Payment","",""
+"","","src/modules/serviceRequest/__tests__/stayServiceDates.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Listings management (Host manual ch. 6).
+
+Not on mobile: ""My listings / Co-hosting"" tabs (H-LIST-01), status filter
+and date picker (part of H-LIST-02). See e2e/COVERAGE.md.","96521","[H-LIST-02] Search by listing name narrows the list @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Listings management","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","130839","[H-BKG-01] Every bookings tab loads; Completed and Cancelled rows carry their status @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Bookings","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","0","[H-COH-05] Remove the co-host @mutating — SKIPPED: depends on H-COH-02","E2E (Detox)","2026-11-03","skipped","2026-11-03","Co-hosts","Host · Communication and services","",""
+"Messages (Guest manual G7) and notifications (G8).","3093","[G-NOTIF-02] Mark all read clears the unread state @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
+"","","src/modules/trips/__tests__/guestCancellationPolicy.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","146395","[H-SET-07] Switching currency shows it on prices and the SAR charge note at checkout; restored @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","235616","[X-03] Guest cancels an instant booking → host sees it Cancelled @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Cross-role","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","0","[H-BKG-05] Reject a pending request @mutating — SKIPPED: covered by X-02 (needs a request made in the same run)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Bookings","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","22140","[G-PROP-04] Without dates the bar offers ""Explore dates"" @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","2","[H-COH-02] Invite a co-host and assign a property @mutating — SKIPPED: sends a real invitation email; needs the user's go-ahead for the +cohost alias (follow-up)","E2E (Detox)","2026-11-03","skipped","2026-11-03","Co-hosts","Host · Communication and services","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","42584","[G-PROP-09] Wishlist heart toggles and persists, then is restored @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
 "Guest authentication (Guest manual G1).
 
 G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
-specs, where the property and date-picker screen objects are.","10202","[G-AUTH-04] Invalid email format is rejected inline @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
+specs, where the property and date-picker screen objects are.","86505","[G-AUTH-10] Guest becomes a host (no listings → add-listing) and switches back @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
+"Host financials (Host manual ch. 10): Overview and Transactions.
+
+H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
+(the Overview's activity rows only show stay, dates and type).","47494","[H-FIN-02] Payment details: subtotal = nights − discount; net earning = subtotal − commission @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Financials","",""
+"Support center (Guest manual G9).
+
+G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
+app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","15218","[G-SUP-04] Reply on the new ticket shows in the thread @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Support","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","26518","[H-AST-01] A suggestion chip gets a reply @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Assistant","Host · Communication and services","",""
+"Card validation and declined payment (Guest manual G3, payment rules).
+
+The validation tests stop on the add-card sheet, so nothing is charged.
+G-BOOK-17 pays with the decline test card; a declined payment leaves no
+confirmed booking, which the test checks through the API.","43148","[G-BOOK-12] A 15-digit card number and an empty CVV are rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Payment","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","1","[H-SRV-03] Full service request with card payment @mutating — SKIPPED: pays for a real service with the test card; needs the service flow stand-ins (follow-up)","E2E (Detox)","2026-11-03","skipped","2026-11-03","Service requests","Host · Communication and services","",""
 "Add-property wizard (Host manual ch. 3), 14 steps.
 
 The tests in ""full wizard"" run in order and build one listing together: it
 is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","20067","[H-ADD-11] Step 11: weekend premium accepts 0–100 and clamps above 100 @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"","","__tests__/hooks/use-countdown.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+kave-ops, which is out of scope). Each test covers one step's rules.","100108","[H-ADD-01] Step 1: Next is enabled only after a property type is chosen @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","39931","[G-BOOK-09] A valid promo code lowers the total; removing it restores the total @regression @data-dependent","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","4384","[G-BOOK-07] Applying an empty promo code asks for one @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","86874","[G-PROP-01] Property page shows its sections and booking bar @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","109198","[G-SET-06] [G-BOOK-16] Switching currency shows it on prices and the SAR charge note at checkout; restored @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
+"","","src/modules/trips/__tests__/tripPriceBreakdown.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","32128","[G-DISC-07] Clear all resets the filters and keeps the search @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
+"","","src/modules/property/__tests__/hostPropertiesPaging.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Wishlist (Guest manual G3).","17057","[G-WISH-04] An empty wishlist shows the empty state with Explore @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Wishlist","",""
+"","","src/utils/__tests__/booking-price-breakdown.calendar.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Guest reviews (Guest manual G7). Data-dependent: stays are found through the
+API at load time (e2e/scripts/qa-data.js).","81140","[G-REV-04] Profile → Reviews lists the guest's reviews or the empty state @data-dependent","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Reviews","",""
 "Card validation and declined payment (Guest manual G3, payment rules).
 
 The validation tests stop on the add-card sheet, so nothing is charged.
 G-BOOK-17 pays with the decline test card; a declined payment leaves no
 confirmed booking, which the test checks through the API.","42412","[G-BOOK-17] The decline test card shows a payment error and no booking is confirmed @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Payment","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","10317","[H-SRV-02] Add new request: Continue without a property is blocked @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Service requests","Host · Communication and services","",""
-"","","src/modules/booking/__tests__/extractCreatedBookingId.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"","","src/modules/property/__tests__/hostPropertiesPaging.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","83816","[H-MSG-01] Messages list loads @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Messages","Host · Communication and services","",""
-"","","src/modules/payments/__tests__/hostEarnings.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Stays (Guest manual G5) and cancellation (G6).
-
-beforeAll books a fresh instant stay through the app; the cancellation
-tests then cancel that same stay through the wizard, which is also this
-spec's cleanup (afterAll cancels it through the API if a test failed first).","11096","[G-STAY-05] Get directions and Share hand off to another app; the app comes back @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Stays","Guest · Stays and cancellation","",""
-"Messages (Guest manual G7) and notifications (G8).","65426","[G-MSG-01] Messages list loads (conversations or the empty state) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
-"","","src/utils/__tests__/payment-method-display.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","110643","[G-SET-02] Last name change persists across a relaunch, then is restored @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","1","[H-MSG-03] Conversation ⋮ options @regression — SKIPPED: destructive options only on chats this run created, and host chats are shared with real guests","E2E (Detox)","2026-11-03","skipped","2026-11-03","Messages","Host · Communication and services","",""
-"Host settings (Host manual ch. 16). Shares the guest settings suite; the
-host-only cases (payout accounts, notification categories) are below it.
-
-H-SET-05 (add a payout account) is never automated: it would register bank
-details on the shared QA host and must not touch the default account.","229283","[H-SET-01] Last name change persists across a relaunch, then is restored @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
-"Wishlist (Guest manual G3).","113279","[G-WISH-01] Adding a property lists it and raises the count by one @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Wishlist","",""
-"","","src/modules/serviceRequest/__tests__/stayServiceDates.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Messages (Guest manual G7) and notifications (G8).","3093","[G-NOTIF-02] Mark all read clears the unread state @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
-"Host bookings (Host manual ch. 9).
-
-Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
-X-01, X-02, X-04 because they need a guest booking made in the same run.","43828","[H-BKG-03] Booking details show guest, dates, guests and payment details; Message guest is offered @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Bookings","",""
-"Let KAVE create your listing (Host manual ch. 4).
-
-The ""List with KAVE"" banner on step 1 only shows while the backend says the
-host is eligible, so H-LRQ-01…03 depend on QA data.","5","[H-LRQ-01] Banner opens the request form with name and email prefilled @data-dependent — SKIPPED: the List with KAVE banner is not offered to the host in QA (not eligible, or no active banner)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · List with KAVE","",""
-"Host settings (Host manual ch. 16). Shares the guest settings suite; the
-host-only cases (payout accounts, notification categories) are below it.
-
-H-SET-05 (add a payout account) is never automated: it would register bank
-details on the shared QA host and must not touch the default account.","5","[H-SET-08b] Identity verification full submit @mutating — SKIPPED: would permanently change the shared QA account's verification status","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Settings","",""
-"Property details (Guest manual G2.3).
-
-G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","57464","[G-PROP-05] Valid dates and guests show the stay price @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
-"Guest authentication (Guest manual G1).
-
-G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
-specs, where the property and date-picker screen objects are.","57638","[G-AUTH-07] Session persists after the app is relaunched @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
-"Let KAVE create your listing (Host manual ch. 4).
-
-The ""List with KAVE"" banner on step 1 only shows while the backend says the
-host is eligible, so H-LRQ-01…03 depend on QA data.","0","[H-LRQ-03] Sending the request confirms it @mutating @data-dependent — SKIPPED: the List with KAVE banner is not offered to the host in QA (not eligible, or no active banner)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · List with KAVE","",""
-"Host bookings (Host manual ch. 9).
-
-Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
-X-01, X-02, X-04 because they need a guest booking made in the same run.","0","[H-BKG-05] Reject a pending request @mutating — SKIPPED: covered by X-02 (needs a request made in the same run)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Bookings","",""
-"Host bookings (Host manual ch. 9).
-
-Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
-X-01, X-02, X-04 because they need a guest booking made in the same run.","130839","[H-BKG-01] Every bookings tab loads; Completed and Cancelled rows carry their status @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Bookings","",""
-"Host sign-in and role (Host manual ch. 2).","40297","[H-AUTH-02] Host switches to guest mode and back @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Sign-in & role","",""
-"Host bookings (Host manual ch. 9).
-
-Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
-X-01, X-02, X-04 because they need a guest booking made in the same run.","1","[H-BKG-04] Approve a pending request @mutating — SKIPPED: covered by X-01 (needs a request made in the same run)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Bookings","",""
-"Guest reviews (Guest manual G7). Data-dependent: stays are found through the
-API at load time (e2e/scripts/qa-data.js).","81140","[G-REV-04] Profile → Reviews lists the guest's reviews or the empty state @data-dependent","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Reviews","",""
-"Guest authentication (Guest manual G1).
-
-G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
-specs, where the property and date-picker screen objects are.","40662","[G-AUTH-02] Wrong password shows an error and stays on sign-in @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
-"Host settings (Host manual ch. 16). Shares the guest settings suite; the
-host-only cases (payout accounts, notification categories) are below it.
-
-H-SET-05 (add a payout account) is never automated: it would register bank
-details on the shared QA host and must not touch the default account.","21200","[H-SET-04] Payments history loads @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
-"Property details (Guest manual G2.3).
-
-G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","30810","[G-PROP-06] Guests cannot exceed the listing capacity @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","26518","[H-AST-01] A suggestion chip gets a reply @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Assistant","Host · Communication and services","",""
-"Property details (Guest manual G2.3).
-
-G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","35271","[G-PROP-10] Share and Message host are offered @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
-"Discover properties (Guest manual G2.1, G2.2).
-
-Mobile has two result screens: /search-results (from the search sheet; has
-the filter sheet, no sort, no count) and the category list opened from an
-Explore section's arrow (has sort and the ""{count} homes"" label).","12989","[G-DISC-08] Map button opens the map view and back @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
-"Instant booking and checkout (Guest manual G3).
-
-Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
-G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
-Stays and the cancellation wizard have their own specs.","128095","[G-PROP-11] Reserve opens the booking flow and leads to Review & book with the card @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
-"Host dashboard (Host manual ch. 2).","114940","[H-DASH-01] Summary cards show numeric values @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
-"Support center (Guest manual G9).
-
-G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
-app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","15218","[G-SUP-04] Reply on the new ticket shows in the thread @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Support","",""
-"","","src/modules/serviceRequest/__tests__/bookingServiceLines.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host financials (Host manual ch. 10): Overview and Transactions.
-
-H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
-(the Overview's activity rows only show stay, dates and type).","32916","[H-FIN-05] Payment details → invoice offers Print and Download @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Financials","",""
-"Host calendar (Host manual ch. 8).
-
-Works on an Active listing that no booking test uses (never the instant
-listing, whose prices the guest specs assert in parallel), on a day far in
-the future. Every price / block change is put back in the same test.","77237","[H-CAL-06] Special discount preview: new = original × (1 − %) (not applied) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
-"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
-one account and into the other inside the app, as a person sharing a phone
-would. Every booking made here is cancelled; every calendar change restored.","562461","[X-07] Host sets a custom price for one date → guest sees it → host restores @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Cross-role","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","0","[H-COH-05] Remove the co-host @mutating — SKIPPED: depends on H-COH-02","E2E (Detox)","2026-11-03","skipped","2026-11-03","Co-hosts","Host · Communication and services","",""
-"Host settings (Host manual ch. 16). Shares the guest settings suite; the
-host-only cases (payout accounts, notification categories) are below it.
-
-H-SET-05 (add a payout account) is never automated: it would register bank
-details on the shared QA host and must not touch the default account.","82560","[H-SET-06] Every notification category toggles off and back on @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings (host only)","",""
-"","","src/modules/_example/__tests__/exampleDisplay.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"","","src/system/providers/__tests__/query-persistence.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"","","src/modules/property/__tests__/listingReviews.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Host dashboard (Host manual ch. 2).","83670","[H-DASH-04b] Reservations ""Last 2 years"" keeps the dashboard loaded @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
 "Stays (Guest manual G5) and cancellation (G6).
 
 beforeAll books a fresh instant stay through the app; the cancellation
@@ -402,241 +132,511 @@ spec's cleanup (afterAll cancels it through the API if a test failed first).","5
 
 Mobile has two result screens: /search-results (from the search sheet; has
 the filter sheet, no sort, no count) and the category list opened from an
-Explore section's arrow (has sort and the ""{count} homes"" label).","32128","[G-DISC-07] Clear all resets the filters and keeps the search @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
-"","","__tests__/domain/auth-error.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"","","src/modules/booking/__tests__/moyasar3dsChallenge.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host settings (Host manual ch. 16). Shares the guest settings suite; the
-host-only cases (payout accounts, notification categories) are below it.
-
-H-SET-05 (add a payout account) is never automated: it would register bank
-details on the shared QA host and must not touch the default account.","2","[undefined] Arabic switches the layout to RTL and back to English @regression","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Settings","",""
-"","","src/modules/listing/__tests__/listingStepRoutes.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Guest authentication (Guest manual G1).
-
-G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
-specs, where the property and date-picker screen objects are.","7069","[G-AUTH-05] Email / Phone toggle swaps the identifier field @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
-"Host sign-in and role (Host manual ch. 2).","185147","[H-AUTH-03] Every host navigation entry opens @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Sign-in & role","",""
-"","","src/utils/__tests__/map-provider.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"","","src/modules/booking/__tests__/selectedServiceLines.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
-one account and into the other inside the app, as a person sharing a phone
-would. Every booking made here is cancelled; every calendar change restored.","235616","[X-03] Guest cancels an instant booking → host sees it Cancelled @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Cross-role","",""
-"Host sign-in and role (Host manual ch. 2).","74717","[H-AUTH-01] Host account signs in and ends on the dashboard @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Sign-in & role","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","0","[H-COH-04] Assign another property @mutating — SKIPPED: depends on H-COH-02","E2E (Detox)","2026-11-03","skipped","2026-11-03","Co-hosts","Host · Communication and services","",""
-"Instant booking and checkout (Guest manual G3).
-
-Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
-G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
-Stays and the cancellation wizard have their own specs.","9723","[G-BOOK-06] Price breakdown: Total = nights − discount + services + platform fee, same as the review total @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
-"Guest reviews (Guest manual G7). Data-dependent: stays are found through the
-API at load time (e2e/scripts/qa-data.js).","1","[G-REV-02] Review cannot be submitted with no ratings @data-dependent — SKIPPED: no completed stay inside the 14-day review window for the guest in QA","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Reviews","",""
-"","","src/utils/__tests__/locale-display.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host dashboard (Host manual ch. 2).","45560","[H-DASH-06] An AI insight action navigates away from the dashboard (nothing is applied) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
+Explore section's arrow (has sort and the ""{count} homes"" label).","49111","[G-DISC-02] Search Where / When / Who returns results @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
 "Add-property wizard (Host manual ch. 3), 14 steps.
 
 The tests in ""full wizard"" run in order and build one listing together: it
 is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","16299","[H-ADD-02] Step 2: Next is blocked until guests, beds and bathrooms are set @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"Host settings (Host manual ch. 16). Shares the guest settings suite; the
-host-only cases (payout accounts, notification categories) are below it.
-
-H-SET-05 (add a payout account) is never automated: it would register bank
-details on the shared QA host and must not touch the default account.","44471","[H-SET-08] Identity verification cannot be submitted without the ID images @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
-"Discover properties (Guest manual G2.1, G2.2).
-
-Mobile has two result screens: /search-results (from the search sheet; has
-the filter sheet, no sort, no count) and the category list opened from an
-Explore section's arrow (has sort and the ""{count} homes"" label).","23995","[G-DISC-04b] Every other sort option reloads the category list @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
-"","","src/modules/booking/__tests__/completeMoyasar3ds.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","1","[H-SRV-03] Full service request with card payment @mutating — SKIPPED: pays for a real service with the test card; needs the service flow stand-ins (follow-up)","E2E (Detox)","2026-11-03","skipped","2026-11-03","Service requests","Host · Communication and services","",""
-"Listings management (Host manual ch. 6).
-
-Not on mobile: ""My listings / Co-hosting"" tabs (H-LIST-01), status filter
-and date picker (part of H-LIST-02). See e2e/COVERAGE.md.","96521","[H-LIST-02] Search by listing name narrows the list @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Listings management","",""
-"Messages (Guest manual G7) and notifications (G8).","32558","[G-NOTIF-04] A preference toggled off survives a relaunch, then is restored @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
-"Instant booking and checkout (Guest manual G3).
-
-Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
-G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
-Stays and the cancellation wizard have their own specs.","76084","[G-BOOK-01] Instant booking end to end: pay with the test card → success → booking is Confirmed @smoke @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
-"","","src/components/forms/__tests__/date-of-birth-input.test.tsx","","","broken","2026-11-10","","(test file execution)","",""
-"Add-property wizard (Host manual ch. 3), 14 steps.
-
-The tests in ""full wizard"" run in order and build one listing together: it
-is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","7642","[H-ADD-17] Back from step 4 keeps the step 3 address @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"Listings management (Host manual ch. 6).
-
-Not on mobile: ""My listings / Co-hosting"" tabs (H-LIST-01), status filter
-and date picker (part of H-LIST-02). See e2e/COVERAGE.md.","23504","[H-LIST-03] Each card shows the listing's status badge @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Listings management","",""
-"Public content and the guest assistant (Guest manual G11).","97447","[G-PUB-01] About, FAQ, Terms, cancellation policy and the services catalog open @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Public pages and assistant","",""
-"Add-property wizard (Host manual ch. 3), 14 steps.
-
-The tests in ""full wizard"" run in order and build one listing together: it
-is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","23967","[H-ADD-07] Step 6: title is capped; description is required @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"Instant booking and checkout (Guest manual G3).
-
-Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
-G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
-Stays and the cancellation wizard have their own specs.","4384","[G-BOOK-07] Applying an empty promo code asks for one @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
-"Host dashboard (Host manual ch. 2).","44648","[H-DASH-02] Listing status counts add up to the listings on the Listings tab @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
-"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","109198","[G-SET-06] [G-BOOK-16] Switching currency shows it on prices and the SAR charge note at checkout; restored @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
-"","","src/utils/__tests__/service-time-slots.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Guest reviews (Guest manual G7). Data-dependent: stays are found through the
-API at load time (e2e/scripts/qa-data.js).","8714","[G-REV-03] A stay older than 14 days shows ""Review period expired"" @data-dependent","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Reviews","",""
-"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","49939","[G-SET-04] Login & security validates without ever submitting a valid change @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
-"Messages (Guest manual G7) and notifications (G8).","4869","[G-NOTIF-01] Notification inbox shows the count label or the empty text @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
-"Property details (Guest manual G2.3).
-
-G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","22140","[G-PROP-04] Without dates the bar offers ""Explore dates"" @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
-"Host bookings (Host manual ch. 9).
-
-Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
-X-01, X-02, X-04 because they need a guest booking made in the same run.","0","[H-BKG-06] Cancel booking with full refund @mutating — SKIPPED: covered by X-04 (host cancels a booking made in the same run)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Bookings","",""
-"Discover properties (Guest manual G2.1, G2.2).
-
-Mobile has two result screens: /search-results (from the search sheet; has
-the filter sheet, no sort, no count) and the category list opened from an
-Explore section's arrow (has sort and the ""{count} homes"" label).","13734","[G-DISC-04] Price sorts order the category list by price @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
-"Host financials (Host manual ch. 10): Overview and Transactions.
-
-H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
-(the Overview's activity rows only show stay, dates and type).","85113","[H-FIN-01] Overview shows Total earnings, Pending payments, Total paid and Refund deductions @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Financials","",""
+kave-ops, which is out of scope). Each test covers one step's rules.","7356","[H-ADD-05] Step 7: pick an access method @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
 "Stays (Guest manual G5) and cancellation (G6).
 
 beforeAll books a fresh instant stay through the app; the cancellation
 tests then cancel that same stay through the wizard, which is also this
-spec's cleanup (afterAll cancels it through the API if a test failed first).","181428","[G-STAY-01] Every Stays tab loads; Cancelled and Completed cards carry their status @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","Stays","Guest · Stays and cancellation","",""
+spec's cleanup (afterAll cancels it through the API if a test failed first).","11747","[G-CANC-02] Cancelling needs the policy acknowledged first @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Cancellation","Guest · Stays and cancellation","",""
 "Host calendar (Host manual ch. 8).
 
 Works on an Active listing that no booking test uses (never the instant
 listing, whose prices the guest specs assert in parallel), on a day far in
 the future. Every price / block change is put back in the same test.","41994","[H-CAL-04] Block a future date, see it blocked, then unblock @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
+"Messages (Guest manual G7) and notifications (G8).","4869","[G-NOTIF-01] Notification inbox shows the count label or the empty text @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","103482","[H-CAL-01] Pick a property and move between months @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","83816","[H-MSG-01] Messages list loads @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Messages","Host · Communication and services","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","414036","[X-05] Messaging round trip: guest → host → guest @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Cross-role","",""
+"","","__tests__/domain/auth-token.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","9723","[G-BOOK-06] Price breakdown: Total = nights − discount + services + platform fee, same as the review total @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","103497","[G-AUTH-01] Sign in with valid guest email and password @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
+"","","src/utils/__tests__/payout-form-validation.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Guest reviews (Guest manual G7). Data-dependent: stays are found through the
+API at load time (e2e/scripts/qa-data.js).","8714","[G-REV-03] A stay older than 14 days shows ""Review period expired"" @data-dependent","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Reviews","",""
+"","","src/modules/auth/__tests__/tokenRefresh.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/utils/__tests__/service-time-slots.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","__tests__/domain/auth-error.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/modules/property/__tests__/searchFilterParams.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/modules/_example/__tests__/exampleDisplay.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","117533","[H-ADD-06] Step 5: at least 3 photos; the first is the cover @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","5","[H-SET-08b] Identity verification full submit @mutating — SKIPPED: would permanently change the shared QA account's verification status","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Settings","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","23759","[G-BOOK-02] Change dates in the summary updates the nights and the total @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
+"Host dashboard (Host manual ch. 2).","61123","[H-DASH-03] Earnings (revenue) period menu switches every option @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
+"Support center (Guest manual G9).
+
+G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
+app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","84223","[G-SUP-01] Support center lists tickets per filter; search works @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Support","",""
+"","","src/utils/__tests__/weekend.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","229283","[H-SET-01] Last name change persists across a relaunch, then is restored @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
+"","","__tests__/config/environment-override.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/modules/trips/__tests__/tripStatusTab.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","451526","[X-06] Host blocks a date → guest cannot book it → host unblocks → guest can @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Cross-role","",""
+"Wishlist (Guest manual G3).","113279","[G-WISH-01] Adding a property lists it and raises the count by one @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Wishlist","",""
+"","","__tests__/utils/log-sanitize.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","110643","[G-SET-02] Last name change persists across a relaunch, then is restored @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","0","[H-BKG-06] Cancel booking with full refund @mutating — SKIPPED: covered by X-04 (host cancels a booking made in the same run)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Bookings","",""
+"Messages (Guest manual G7) and notifications (G8).","16448","[G-NOTIF-03] Scrolling to the end loads more (when there is more than a page) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","21684","[G-STAY-04] Message host opens the conversation with this host @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Stays","Guest · Stays and cancellation","",""
+"","","__tests__/utils/image-upload-prep.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/utils/__tests__/continuous-stay.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","8116","[G-BOOK-03] Change guests in the summary cannot exceed the listing maximum @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
+"","","src/utils/__tests__/map-provider.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Public content and the guest assistant (Guest manual G11).","97447","[G-PUB-01] About, FAQ, Terms, cancellation policy and the services catalog open @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Public pages and assistant","",""
 "Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","29909","[G-SET-07] Arabic switches the layout to RTL and back to English @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
 "Stays (Guest manual G5) and cancellation (G6).
 
 beforeAll books a fresh instant stay through the app; the cancellation
 tests then cancel that same stay through the wizard, which is also this
 spec's cleanup (afterAll cancels it through the API if a test failed first).","35125","[G-STAY-03] Booking details show payment summary and the actions for a confirmed stay @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Stays","Guest · Stays and cancellation","",""
-"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","45216","[G-SET-03] Address (apartment / suite) saves and is restored @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
-"Discover properties (Guest manual G2.1, G2.2).
-
-Mobile has two result screens: /search-results (from the search sheet; has
-the filter sheet, no sort, no count) and the category list opened from an
-Explore section's arrow (has sort and the ""{count} homes"" label).","49111","[G-DISC-02] Search Where / When / Who returns results @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
-"Property details (Guest manual G2.3).
-
-G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","1","[G-PROP-07] Fewer nights than the minimum stay shows an error @regression — SKIPPED: no public QA listing with a minimum stay and future bookings","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Property details","",""
-"","","src/utils/__tests__/weekend.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/utils/__tests__/payment-method-display.test.ts","","","broken","2026-11-10","","(test file execution)","",""
 "Host settings (Host manual ch. 16). Shares the guest settings suite; the
 host-only cases (payout accounts, notification categories) are below it.
 
 H-SET-05 (add a payout account) is never automated: it would register bank
-details on the shared QA host and must not touch the default account.","3","[undefined] Every settings entry opens @regression","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Settings","",""
-"","","src/modules/appUpdate/__tests__/appUpdateRules.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Messages (Guest manual G7) and notifications (G8).","16448","[G-NOTIF-03] Scrolling to the end loads more (when there is more than a page) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
-"","","src/modules/property/__tests__/searchFilterParams.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+details on the shared QA host and must not touch the default account.","90781","[H-SET-03] Login & security validates without ever submitting a valid change @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
+"","","src/modules/property/__tests__/propertyReviewDisplay.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/modules/booking/__tests__/bookingPayload.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","1","[X-02] Request → host rejects → guest sees Rejected @mutating — SKIPPED: E2E_REQUEST_PROPERTY_ID is empty (the E2E REQUEST listing is not approved yet)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Cross-role","",""
+"Host dashboard (Host manual ch. 2).","44648","[H-DASH-02] Listing status counts add up to the listings on the Listings tab @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
+"Host dashboard (Host manual ch. 2).","114940","[H-DASH-01] Summary cards show numeric values @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
 "","","src/utils/__tests__/date-helpers.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"","","src/modules/trips/__tests__/guestCancellationPolicy.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host calendar (Host manual ch. 8).
+"Host sign-in and role (Host manual ch. 2).","74717","[H-AUTH-01] Host account signs in and ends on the dashboard @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Sign-in & role","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
 
-Works on an Active listing that no booking test uses (never the instant
-listing, whose prices the guest specs assert in parallel), on a day far in
-the future. Every price / block change is put back in the same test.","40121","[H-CAL-05] ""Block all"" for the selection blocks and unblocks @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","7642","[H-ADD-17] Back from step 4 keeps the step 3 address @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","6641","[H-ADD-08] Step 8: amenities can be selected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","21200","[H-SET-04] Payments history loads @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
 "Instant booking and checkout (Guest manual G3).
 
 Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
 G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
-Stays and the cancellation wizard have their own specs.","8116","[G-BOOK-03] Change guests in the summary cannot exceed the listing maximum @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
-"Host financials (Host manual ch. 10): Overview and Transactions.
+Stays and the cancellation wizard have their own specs.","0","[G-BOOK-05] Services Back keeps dates and guests @regression — SKIPPED: the instant QA listing offers no add-on services","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Instant booking","",""
+"","","src/utils/__tests__/phone-no.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/modules/booking/__tests__/completeMoyasar3ds.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
 
-H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
-(the Overview's activity rows only show stay, dates and type).","47494","[H-FIN-02] Payment details: subtotal = nights − discount; net earning = subtotal − commission @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Financials","",""
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","16299","[H-ADD-02] Step 2: Next is blocked until guests, beds and bathrooms are set @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
 "Property details (Guest manual G2.3).
 
-G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","42584","[G-PROP-09] Wishlist heart toggles and persists, then is restored @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","41865","[G-PROP-02] ""Show more"" expands the description; amenities list opens @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","12989","[G-DISC-08] Map button opens the map view and back @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","64948","[G-DISC-05] Distance sort with location allowed, then denied @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
+"Messages (Guest manual G7) and notifications (G8).","32558","[G-NOTIF-04] A preference toggled off survives a relaunch, then is restored @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
+"Listings management (Host manual ch. 6).
+
+Not on mobile: ""My listings / Co-hosting"" tabs (H-LIST-01), status filter
+and date picker (part of H-LIST-02). See e2e/COVERAGE.md.","60227","[H-LIST-06] Scrolling down loads the next page until the oldest listing shows @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Listings management","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","108815","[G-AUTH-11] Signed out: Reserve asks to sign in and the booking resumes after login @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
+"","","src/modules/serviceRequest/__tests__/bookingServiceLines.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/modules/payments/__tests__/hostEarnings.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Guest reviews (Guest manual G7). Data-dependent: stays are found through the
+API at load time (e2e/scripts/qa-data.js).","1","[G-REV-02] Review cannot be submitted with no ratings @data-dependent — SKIPPED: no completed stay inside the 14-day review window for the guest in QA","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Reviews","",""
+"Let KAVE create your listing (Host manual ch. 4).
+
+The ""List with KAVE"" banner on step 1 only shows while the backend says the
+host is eligible, so H-LRQ-01…03 depend on QA data.","0","[H-LRQ-03] Sending the request confirms it @mutating @data-dependent — SKIPPED: the List with KAVE banner is not offered to the host in QA (not eligible, or no active banner)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · List with KAVE","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","43828","[H-BKG-03] Booking details show guest, dates, guests and payment details; Message guest is offered @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Bookings","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","13734","[G-DISC-04] Price sorts order the category list by price @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","5854","[H-ADD-04] Step 4: choose Request booking @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
 "Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","6178","[H-AST-03] New chat keeps the previous one in the history @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Assistant","Host · Communication and services","",""
-"","","__tests__/services/secure-storage.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+(Host manual ch. 9, 11–13, 15).","10317","[H-SRV-02] Add new request: Continue without a property is blocked @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Service requests","Host · Communication and services","",""
+"Let KAVE create your listing (Host manual ch. 4).
+
+The ""List with KAVE"" banner on step 1 only shows while the backend says the
+host is eligible, so H-LRQ-01…03 depend on QA data.","137970","[H-LRQ-04] My requests → Listing request: every status tab loads @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · List with KAVE","",""
+"","","src/utils/__tests__/pdf-file-naming.test.ts","","","broken","2026-11-10","","(test file execution)","",""
 "Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
 one account and into the other inside the app, as a person sharing a phone
-would. Every booking made here is cancelled; every calendar change restored.","1","[X-02] Request → host rejects → guest sees Rejected @mutating — SKIPPED: E2E_REQUEST_PROPERTY_ID is empty (the E2E REQUEST listing is not approved yet)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Cross-role","",""
+would. Every booking made here is cancelled; every calendar change restored.","562461","[X-07] Host sets a custom price for one date → guest sees it → host restores @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Cross-role","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","115531","[G-PROP-08] A range over booked nights is rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
+"Host dashboard (Host manual ch. 2).","45560","[H-DASH-06] An AI insight action navigates away from the dashboard (nothing is applied) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
+"Support center (Guest manual G9).
+
+G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
+app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","19582","[G-SUP-03] Create a ticket → success → it is listed as Open @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Support","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","76084","[G-BOOK-01] Instant booking end to end: pay with the test card → success → booking is Confirmed @smoke @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
+"Messages (Guest manual G7) and notifications (G8).","41288","[G-MSG-02] A sent message appears in the thread @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
+"","","src/components/forms/__tests__/date-of-birth-input.test.tsx","","","broken","2026-11-10","","(test file execution)","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","2","[undefined] Arabic switches the layout to RTL and back to English @regression","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Settings","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","77237","[H-CAL-06] Special discount preview: new = original × (1 − %) (not applied) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
+"","","src/modules/payments/__tests__/hostPaymentEarning.test.ts","","","broken","2026-11-10","","(test file execution)","",""
 "Messages (Guest manual G7) and notifications (G8).","1","[G-MSG-03] Attach a file to a message @regression — SKIPPED: chat attachments use the system photo picker, not mocked in E2E builds yet","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Messages and notifications","",""
 "Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","28668","[H-SRV-01] Every service request tab loads @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Service requests","Host · Communication and services","",""
-"Wishlist (Guest manual G3).","9045","[G-WISH-02] Tapping a saved property opens it @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Wishlist","",""
-"","","src/modules/payments/__tests__/paymentRecord.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"","","src/utils/__tests__/payout-form-validation.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"","","src/modules/payments/__tests__/hostPaymentEarning.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Messages (Guest manual G7) and notifications (G8).","41288","[G-MSG-02] A sent message appears in the thread @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
-"","","__tests__/utils/log-sanitize.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Host messages, assistant, service requests, co-hosts and support
-(Host manual ch. 9, 11–13, 15).","1","[H-COH-03] Manage permissions @mutating — SKIPPED: depends on H-COH-02","E2E (Detox)","2026-11-03","skipped","2026-11-03","Co-hosts","Host · Communication and services","",""
-"Stays (Guest manual G5) and cancellation (G6).
+(Host manual ch. 9, 11–13, 15).","7676","[H-AST-04] Contact Support opens the support center @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Assistant","Host · Communication and services","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","45216","[G-SET-03] Address (apartment / suite) saves and is restored @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","27098","[G-SET-08] Identity verification cannot be submitted without the ID images @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
+"Guest authentication (Guest manual G1).
 
-beforeAll books a fresh instant stay through the app; the cancellation
-tests then cancel that same stay through the wizard, which is also this
-spec's cleanup (afterAll cancels it through the API if a test failed first).","21684","[G-STAY-04] Message host opens the conversation with this host @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Stays","Guest · Stays and cancellation","",""
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","40662","[G-AUTH-02] Wrong password shows an error and stays on sign-in @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","47917","[G-DISC-06] Filter sheet: type, beds, rating, amenity → results @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
+"Public content and the guest assistant (Guest manual G11).","17960","[G-PUB-02] The assistant answers a question (reply text not asserted) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Public pages and assistant","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","33085","[G-PROP-03] Property rules open @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","0","[H-SRV-04] Cancel the new request @mutating — SKIPPED: depends on H-SRV-03","E2E (Detox)","2026-11-03","skipped","2026-11-03","Service requests","Host · Communication and services","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","7069","[G-AUTH-05] Email / Phone toggle swaps the identifier field @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
+"","","src/modules/booking/__tests__/extractCreatedBookingId.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Let KAVE create your listing (Host manual ch. 4).
+
+The ""List with KAVE"" banner on step 1 only shows while the backend says the
+host is eligible, so H-LRQ-01…03 depend on QA data.","0","[H-LRQ-02] Sending with an empty or invalid phone is rejected @data-dependent — SKIPPED: the List with KAVE banner is not offered to the host in QA (not eligible, or no active banner)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · List with KAVE","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","32894","[H-ADD-13] Step 13: emergency exit info is capped at 250 characters @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
+"Listings management (Host manual ch. 6).
+
+Not on mobile: ""My listings / Co-hosting"" tabs (H-LIST-01), status filter
+and date picker (part of H-LIST-02). See e2e/COVERAGE.md.","23504","[H-LIST-03] Each card shows the listing's status badge @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Listings management","",""
+"Instant booking and checkout (Guest manual G3).
+
+Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
+G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
+Stays and the cancellation wizard have their own specs.","128095","[G-PROP-11] Reserve opens the booking flow and leads to Review & book with the card @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","10045","[G-AUTH-03] Empty password is rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
+"Support center (Guest manual G9).
+
+G-SUP-03 opens a real ticket in QA (title tagged with the run), which the
+app cannot delete; it only runs with E2E_ALLOW_MUTATIONS=true.","8164","[G-SUP-02] A new request cannot be submitted until title, category and description are filled @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Support","",""
+"","","src/components/forms/__tests__/phone-input.test.ts","","","broken","2026-11-10","","(test file execution)","",""
 "Instant booking and checkout (Guest manual G3).
 
 Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
 G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
 Stays and the cancellation wizard have their own specs.","2","[G-BOOK-04] Select one service and schedule it @regression — SKIPPED: the instant QA listing offers no add-on services","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Instant booking","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","1","[H-BKG-04] Approve a pending request @mutating — SKIPPED: covered by X-01 (needs a request made in the same run)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Bookings","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","57638","[G-AUTH-07] Session persists after the app is relaunched @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
+"","","src/system/providers/__tests__/query-persistence.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/modules/host/__tests__/hostBookingStatus.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Host financials (Host manual ch. 10): Overview and Transactions.
+
+H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
+(the Overview's activity rows only show stay, dates and type).","32916","[H-FIN-05] Payment details → invoice offers Print and Download @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Financials","",""
+"","","__tests__/utils/auth-helpers.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/modules/listing/__tests__/listingStepRoutes.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","15446","[G-STAY-06] An empty tab shows ""No stays"" with Explore properties, which opens discovery @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Stays","Guest · Stays and cancellation","",""
+"Host sign-in and role (Host manual ch. 2).","40297","[H-AUTH-02] Host switches to guest mode and back @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Sign-in & role","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","0","[H-SRV-05] Service payment row in Payments @mutating — SKIPPED: depends on H-SRV-03","E2E (Detox)","2026-11-03","skipped","2026-11-03","Service requests","Host · Communication and services","",""
+"","","src/modules/booking/__tests__/selectedServiceLines.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","23995","[G-DISC-04b] Every other sort option reloads the category list @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","20613","[H-AST-02] A typed question gets a reply @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Assistant","Host · Communication and services","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","42602","[G-DISC-03] A nonsense destination shows ""No properties found"" @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","40121","[H-CAL-05] ""Block all"" for the selection blocks and unblocks @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","1","[H-MSG-03] Conversation ⋮ options @regression — SKIPPED: destructive options only on chats this run created, and host chats are shared with real guests","E2E (Detox)","2026-11-03","skipped","2026-11-03","Messages","Host · Communication and services","",""
+"Wishlist (Guest manual G3).","9045","[G-WISH-02] Tapping a saved property opens it @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Wishlist","",""
 "Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
 one account and into the other inside the app, as a person sharing a phone
-would. Every booking made here is cancelled; every calendar change restored.","451526","[X-06] Host blocks a date → guest cannot book it → host unblocks → guest can @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Cross-role","",""
+would. Every booking made here is cancelled; every calendar change restored.","288399","[X-04] Host cancels an instant booking → guest sees it Cancelled @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Cross-role","",""
+"","","src/system/currency/__tests__/format.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","57464","[G-PROP-05] Valid dates and guests show the stay price @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
+"","","src/modules/booking/__tests__/moyasar3dsChallenge.test.ts","","","broken","2026-11-10","","(test file execution)","",""
 "Add-property wizard (Host manual ch. 3), 14 steps.
 
 The tests in ""full wizard"" run in order and build one listing together: it
 is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
 kave-ops, which is out of scope). Each test covers one step's rules.","12826","[H-ADD-16] Step 14: licence details + PDF from Files, then submit for approval @mutating — SKIPPED: E2E REQUEST listing PR-3155 already submitted (Active)","E2E (Detox)","2026-11-03","skipped","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"","","src/modules/booking/__tests__/bookingPayload.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","1","[G-SET-09] Identity verification full submit @mutating — SKIPPED: would permanently change the shared QA account's verification status","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Settings","",""
-"Add-property wizard (Host manual ch. 3), 14 steps.
-
-The tests in ""full wizard"" run in order and build one listing together: it
-is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","31531","[H-ADD-14] Save & Exit keeps a draft that resumes where it stopped @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Add property","",""
-"Guest authentication (Guest manual G1).
-
-G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
-specs, where the property and date-picker screen objects are.","103497","[G-AUTH-01] Sign in with valid guest email and password @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
-"","","__tests__/domain/auth-token.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"","","src/modules/property/__tests__/propertyReviewDisplay.test.ts","","","broken","2026-11-10","","(test file execution)","",""
-"Wishlist (Guest manual G3).","17057","[G-WISH-04] An empty wishlist shows the empty state with Explore @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Wishlist","",""
-"Property details (Guest manual G2.3).
-
-G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","41865","[G-PROP-02] ""Show more"" expands the description; amenities list opens @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
-"Guest authentication (Guest manual G1).
-
-G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
-specs, where the property and date-picker screen objects are.","19084","[G-AUTH-09] Sign-up screen validates email and offers social sign-up @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
-"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","13740","[G-SET-05] Payments history loads @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
-"Stays (Guest manual G5) and cancellation (G6).
-
-beforeAll books a fresh instant stay through the app; the cancellation
-tests then cancel that same stay through the wizard, which is also this
-spec's cleanup (afterAll cancels it through the API if a test failed first).","23780","[G-CANC-01] [G-CANC-03] Confirm cancellation → success toast → booking is Cancelled @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","Cancellation","Guest · Stays and cancellation","",""
-"Property details (Guest manual G2.3).
-
-G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","86874","[G-PROP-01] Property page shows its sections and booking bar @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
-"","","src/utils/__tests__/booking-price-breakdown.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"","","src/modules/appUpdate/__tests__/appUpdateRules.test.ts","","","broken","2026-11-10","","(test file execution)","",""
 "Host calendar (Host manual ch. 8).
 
 Works on an Active listing that no booking test uses (never the instant
 listing, whose prices the guest specs assert in parallel), on a day far in
-the future. Every price / block change is put back in the same test.","47552","[H-CAL-03] Per-date price: set original + 1, then restore @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
+the future. Every price / block change is put back in the same test.","1049","[H-CAL-07] AI suggestion panel shows for the listing @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","49939","[G-SET-04] Login & security validates without ever submitting a valid change @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","3","[undefined] Every settings entry opens @regression","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · Settings","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","19084","[G-AUTH-09] Sign-up screen validates email and offers social sign-up @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","56947","[H-SET-02] Address (apartment / suite) saves and is restored @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
+"Cross-role flows (guest ⇄ host), on one simulator: the test signs out of
+one account and into the other inside the app, as a person sharing a phone
+would. Every booking made here is cancelled; every calendar change restored.","1","[X-01] Request → host approves → guest pays → host sees Confirmed @smoke @mutating — SKIPPED: E2E_REQUEST_PROPERTY_ID is empty (the E2E REQUEST listing is not approved yet)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Cross-role","",""
+"","","src/utils/__tests__/locale-display.test.ts","","","broken","2026-11-10","","(test file execution)","",""
 "Add-property wizard (Host manual ch. 3), 14 steps.
 
 The tests in ""full wizard"" run in order and build one listing together: it
 is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
-kave-ops, which is out of scope). Each test covers one step's rules.","100108","[H-ADD-01] Step 1: Next is enabled only after a property type is chosen @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
-"","","__tests__/utils/auth-helpers.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+kave-ops, which is out of scope). Each test covers one step's rules.","18660","[H-ADD-09] Step 9: check-in and check-out times @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","50108","[H-CAL-02] Base price for the selection: original + 1, then restore @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
+"Host reviews (Host manual ch. 14).
+
+DIFFERS: mobile has no host reviews dashboard (overall score, category
+averages, sort). Profile → Reviews lists the reviews written about you, so
+H-REV-01 checks that list and H-REV-02 is not on mobile (COVERAGE.md).","136600","[H-REV-01] Profile → Reviews lists the reviews about the host (or the empty state) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Reviews","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","14478","[H-SET-09] Support & Legal: FAQ and Terms open with content @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","11096","[G-STAY-05] Get directions and Share hand off to another app; the app comes back @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Stays","Guest · Stays and cancellation","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","30810","[G-PROP-06] Guests cannot exceed the listing capacity @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","13740","[G-SET-05] Payments history loads @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","15602","[H-ADD-10] Step 10: weekday price breakdown — You earned = base − commission @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
+"","","src/utils/__tests__/booking-price-breakdown.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Let KAVE create your listing (Host manual ch. 4).
+
+The ""List with KAVE"" banner on step 1 only shows while the backend says the
+host is eligible, so H-LRQ-01…03 depend on QA data.","5","[H-LRQ-01] Banner opens the request form with name and email prefilled @data-dependent — SKIPPED: the List with KAVE banner is not offered to the host in QA (not eligible, or no active banner)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Host · List with KAVE","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","0","[H-COH-04] Assign another property @mutating — SKIPPED: depends on H-COH-02","E2E (Detox)","2026-11-03","skipped","2026-11-03","Co-hosts","Host · Communication and services","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","55426","[G-AUTH-06] Log out returns to signed-out state; protected screens ask to sign in @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
 "Instant booking and checkout (Guest manual G3).
 
 Runs on E2E_INSTANT_PROPERTY_ID (""Grand Demo 01"", max 1 guest). Only
 G-BOOK-01 pays; every booking it makes is cancelled again in afterAll.
 Stays and the cancellation wizard have their own specs.","6656","[G-BOOK-08] An invalid promo code is rejected and the total is unchanged @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Instant booking","",""
+"Host financials (Host manual ch. 10): Overview and Transactions.
+
+H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
+(the Overview's activity rows only show stay, dates and type).","85113","[H-FIN-01] Overview shows Total earnings, Pending payments, Total paid and Refund deductions @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Financials","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","15502","[H-COH-01] Invite with an invalid email is rejected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Co-hosts","Host · Communication and services","",""
+"","","src/modules/property/__tests__/listingReviews.test.ts","","","broken","2026-11-10","","(test file execution)","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","16988","[G-STAY-02] Search by property name shows this run's booking @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Stays","Guest · Stays and cancellation","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","28668","[H-SRV-01] Every service request tab loads @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Service requests","Host · Communication and services","",""
+"Host settings (Host manual ch. 16). Shares the guest settings suite; the
+host-only cases (payout accounts, notification categories) are below it.
+
+H-SET-05 (add a payout account) is never automated: it would register bank
+details on the shared QA host and must not touch the default account.","82560","[H-SET-06] Every notification category toggles off and back on @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Settings (host only)","",""
+"Guest settings (Guest manual G10). G-BOOK-16 (SAR charge note) runs inside G-SET-06.","226190","[G-SET-01] Every settings entry opens @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Settings","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","1","[G-PROP-07] Fewer nights than the minimum stay shows an error @regression — SKIPPED: no public QA listing with a minimum stay and future bookings","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Property details","",""
+"Messages (Guest manual G7) and notifications (G8).","65426","[G-MSG-01] Messages list loads (conversations or the empty state) @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Messages and notifications","",""
+"Host calendar (Host manual ch. 8).
+
+Works on an Active listing that no booking test uses (never the instant
+listing, whose prices the guest specs assert in parallel), on a day far in
+the future. Every price / block change is put back in the same test.","47552","[H-CAL-03] Per-date price: set original + 1, then restore @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Calendar","",""
+"Discover properties (Guest manual G2.1, G2.2).
+
+Mobile has two result screens: /search-results (from the search sheet; has
+the filter sheet, no sort, no count) and the category list opened from an
+Explore section's arrow (has sort and the ""{count} homes"" label).","61774","[G-DISC-01] Explore loads the search entry and curated sections @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Discover","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","58879","[G-AUTH-08] Forgot password validates the email, then reaches the OTP step @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
+"Messages (Guest manual G7) and notifications (G8).","0","[G-MSG-05] Delete a chat created by this run @mutating — SKIPPED: no conversation created by this run alone (guest ↔ host chat is shared)","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Messages and notifications","",""
+"Host financials (Host manual ch. 10): Overview and Transactions.
+
+H-FIN-02's earnings arithmetic is checked on Transactions → Payment details
+(the Overview's activity rows only show stay, dates and type).","50951","[H-FIN-04] Every Transactions tab loads; search, status filter and date filter work @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Financials","",""
+"Host dashboard (Host manual ch. 2).","58311","[H-DASH-05] Recent bookings: search narrows the list; View All opens Bookings @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Dashboard","",""
+"Host sign-in and role (Host manual ch. 2).","185147","[H-AUTH-03] Every host navigation entry opens @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Sign-in & role","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","181428","[G-STAY-01] Every Stays tab loads; Cancelled and Completed cards carry their status @smoke","E2E (Detox)","2026-11-03","passed","2026-11-03","Stays","Guest · Stays and cancellation","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","6760","[H-ADD-12] Step 12: a discount can be selected @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","23967","[H-ADD-07] Step 6: title is capped; description is required @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","20067","[H-ADD-11] Step 11: weekend premium accepts 0–100 and clamps above 100 @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","full wizard (one listing, step by step)","Host · Add property","",""
+"Property details (Guest manual G2.3).
+
+G-PROP-11 (Reserve opens the booking flow) lives in the booking specs.","35271","[G-PROP-10] Share and Message host are offered @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Property details","",""
+"Guest authentication (Guest manual G1).
+
+G-AUTH-11 (logged-out booking resumes after sign-in) lives in the booking
+specs, where the property and date-picker screen objects are.","10202","[G-AUTH-04] Invalid email format is rejected inline @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Guest · Authentication","",""
+"Messages (Guest manual G7) and notifications (G8).","0","[G-MSG-04] Over-limit attachment is rejected @regression — SKIPPED: chat attachments use the system photo picker, not mocked in E2E builds yet","E2E (Detox)","2026-11-03","skipped","2026-11-03","","Guest · Messages and notifications","",""
+"Host bookings (Host manual ch. 9).
+
+Approve / reject / host cancel (H-BKG-04…06) run as cross-role tests
+X-01, X-02, X-04 because they need a guest booking made in the same run.","20868","[H-BKG-02] Search by booking code narrows the list to that booking @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Bookings","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","18396","[H-MSG-02] A text sent in a conversation shows in the thread @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Messages","Host · Communication and services","",""
+"Add-property wizard (Host manual ch. 3), 14 steps.
+
+The tests in ""full wizard"" run in order and build one listing together: it
+is this run's REQUEST listing (E2E_REQUEST_PROPERTY_ID once approved in
+kave-ops, which is out of scope). Each test covers one step's rules.","31531","[H-ADD-14] Save & Exit keeps a draft that resumes where it stopped @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","","Host · Add property","",""
+"Host messages, assistant, service requests, co-hosts and support
+(Host manual ch. 9, 11–13, 15).","6178","[H-AST-03] New chat keeps the previous one in the history @regression","E2E (Detox)","2026-11-03","passed","2026-11-03","Assistant","Host · Communication and services","",""
+"Stays (Guest manual G5) and cancellation (G6).
+
+beforeAll books a fresh instant stay through the app; the cancellation
+tests then cancel that same stay through the wizard, which is also this
+spec's cleanup (afterAll cancels it through the API if a test failed first).","23780","[G-CANC-01] [G-CANC-03] Confirm cancellation → success toast → booking is Cancelled @mutating","E2E (Detox)","2026-11-03","passed","2026-11-03","Cancellation","Guest · Stays and cancellation","",""

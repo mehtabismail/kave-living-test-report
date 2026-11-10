@@ -1,0 +1,1 @@
+ERROR		Event handler is called Connection invalid

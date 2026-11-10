@@ -1,0 +1,2 @@
+ERROR	AudioDataAnalysisFramework(ADAF):ADAM	feature mandatory flag is not set, default to mandatory
+ERROR		fopen failed for data file: errno = 2 (No such file or directory)
